@@ -5,8 +5,8 @@ The aim of the project is to  build a tool that can automatically produce a natu
 
 | Directory | Description |
 |-----------|-------------|
-| dataset | Contains the processed dataset of function declaration+body, description, and generated ASTs |
-| helper code | Helper methods for preprocessing tasks |
+| data | Contains the processed dataset of function declaration+body, description, and generated ASTs |
+| utils | Helper methods for preprocessing tasks |
 | V2 | V2/parallel is the initial extracted function declaration, description & body. V2/repo_split contains the splits used in the original paper|
 | backtranslations-corpus| A corpus of docstrings automatically generated from the code-only corpus using Neural Machine Translation, used in the original paper (may/may not be relevant) |
 | parallel-corpus | The raw corpus used in the original paper (may/may not be relevant) |
@@ -51,6 +51,27 @@ def _interceptdot (w, X, y):
 
 ```github/scikit−learn/scikit−learn/sklearn/linearmodel/logistic.py 39```
 
-
 ## References 
 [1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017).
+
+# Data
+
+## Java
+Due to the rather large size of the datasets and the 100MB limitation Github enforces, we've provided a [link](https://www.dropbox.com/s/zwcntdxh3m6mtmm/java_data.zip?dl=0) to the preprocessed Java datasets. Files prefixes (eg. src and tgt) indicate the OpenNMT flags to use with each. 
+
+NOTE: preprocessed here means:
+- The methods are split between method name and method body AND both have been tokenized and subtokenized
+- The method name has been stripped of parameters
+- The methody body has been converted to an AST with several paths sampled between terminal nodes
+
+### Inputs (X)
+- src.train.txt
+- src.val.txt
+- src.test.txt
+
+### Targets (Y)
+- tgt.train.txt
+- tgt.val.txt
+- tgt.test.txt
+
+Source: [code2seq](https://github.com/tech-srl/code2seq#datasets)
