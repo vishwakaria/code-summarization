@@ -57,7 +57,7 @@ def _interceptdot (w, X, y):
 # Data
 
 ## Java
-Due to the rather large size of the datasets and the 100MB limitation Github enforces, we've provided a [link](https://www.dropbox.com/s/zwcntdxh3m6mtmm/java_data.zip?dl=0) to the preprocessed Java datasets. Files prefixes (eg. src and tgt) indicate the OpenNMT flags to use with each. 
+Due to the rather large size of the datasets and the 100MB limitation Github enforces, we've provided a [link](https://drive.google.com/open?id=1mJRuS_Z0MMYmwWO09LrSXC5idqdgCVCJ) to the preprocessed Java datasets. Files prefixes (eg. src and tgt) indicate the OpenNMT flags to use with each. 
 
 NOTE: preprocessed here means:
 - The methods are split between method name and method body AND both have been tokenized and subtokenized
