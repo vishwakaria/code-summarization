@@ -1,0 +1,10 @@
+data/python/.ipynb_checkpoints
+data/python/original data/parallel_AST
+data/python/original data/updated_parallel_bodies
+data/python/original data/updated_parallel_decl+bodies
+data/python/processed data/input_train.txt
+data/python/processed data/summary_train.txt
+data/python/processed data/input_dev.txt
+data/python/processed data/summary_dev.txt
+data/python/processed data/input_test.txt
+data/python/processed data/summary_test.txt
