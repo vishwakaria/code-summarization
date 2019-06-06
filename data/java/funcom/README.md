@@ -8,10 +8,10 @@ Due to size restrictions of Github, the all files can be downloaded from the fol
 
 ### Variations
 
-1. Raw Java ([link](https://www.dropbox.com/s/sd0w4aeq811nigb/java_raw.tar.gz?dl=0))
+1. Raw Java ([link](https://www.dropbox.com/s/zxizopqgx5at8o3/java_raw.zip?dl=0))
 2. Tokenized Java ([link](https://drive.google.com/open?id=1Qa-GEZV2gEw8rRzchbOs66AEytVABctc))
-3. Raw -> AST Java ([link](https://www.dropbox.com/s/cblexca1k3a05w8/java_ast_syntax.tar.gz?dl=0))
-4. Raw -> AST Java Cleaned ([link](https://www.dropbox.com/s/zqy4fx2oxy5fwrf/java_ast_no_syntax.tar.gz?dl=0))
+3. Raw -> AST Java ([link](https://www.dropbox.com/s/vwf8sh32xj4ogli/java_ast_syntax.zip?dl=0))
+4. Raw -> AST Java Cleaned ([link](https://www.dropbox.com/s/r6w8qgepq1v3hiq/java_ast_no_syntax.zip?dl=0))
 
 Each link contains a compressed file with the following folders:
 
@@ -25,7 +25,6 @@ Each link contains a compressed file with the following folders:
     1. functions
     2. comments
   
-NOTE: Each variation uses the same indices for the train/valid/test split.
 
 NOTE: The AST files were generated after reading in the source code from the JSON files, using the javalang module in Python
 
