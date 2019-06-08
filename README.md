@@ -6,6 +6,7 @@ The aim of the project is to  build a tool that can automatically produce a natu
 | Directory | Description |
 |-----------|-------------|
 | data | Contains the processed dataset of function declaration+body, description, and generated ASTs |
+| pred | Contains the predictions output from various tests conducted to evaluate the importance of different prep-processing steps |
 | utils | Helper methods for preprocessing tasks |
 | V2 | V2/parallel is the initial extracted function declaration, description & body. V2/repo_split contains the splits used in the original paper|
 | backtranslations-corpus| A corpus of docstrings automatically generated from the code-only corpus using Neural Machine Translation, used in the original paper (may/may not be relevant) |
