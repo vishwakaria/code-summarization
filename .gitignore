@@ -8,3 +8,10 @@ data/python/processed data/input_dev.txt
 data/python/processed data/summary_dev.txt
 data/python/processed data/input_test.txt
 data/python/processed data/summary_test.txt
+data/python/original data/updated_parellel_decl+bodies
+data/python/original data/updated_parellel_decl
+data/python/original data/updated_parellel_desc
+/Model for raw python/data
+/Model for raw python/.ipynb_checkpoints
+/Model with AST Python/data
+/Model with AST Python/model
