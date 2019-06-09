@@ -1,0 +1,2000 @@
+a simple view that can be used to get a token
+a simple view that can be used to get a page
+ask for a given uri
+returns the default description for the current thread
+this method returns the default value of the current request
+check if user has changed
+this function is called when a custom page is called
+get the user id for a user
+simple view that can be used when request
+return a generator that can t be used to save this dcnl can be used to save this is used to save the current time
+return the current page
+update current page
+create a new site
+sends a get request dcnl param user the user to use dcnl param user the user to use dcnl param user the request to use dcnl param request optional arguments that request takes
+delete the current user
+send email
+return a generator that is valid
+this is called when you want to do anything
+set up a string to be removed
+musicpd org current time section dcnl sets a number of seconds in seconds
+update current time zone
+check if the given number is valid
+update current time zone
+update current range
+get default configuration options
+return the processor architecture dcnl possible results are intel itanium or amd64
+returns a list of records for a given filename
+return the current time zone
+create an empty document
+get current time zone
+count the limit in a list
+return a dict of email address
+add a message to the client
+return the description of the current page
+iterate over all fields of a document
+parses a query given as a string
+return the current date in the current time zone
+this function returns a list of spelling corrections
+returns the first item in a dictionary
+return a list of records for the tests that have been read
+parse a date string into a datetime date object
+return an error message
+return an error message
+check if the object is valid
+check if the user is valid
+check if the object is valid
+a view that is login protected
+redirect to login
+a view that is login protected
+return true if the user is valid
+decorator that adds a page to a page
+decorator to make a function and return a function
+create an image file
+create a new image object
+check if the media player is valid
+update a service or raise if it does not exist
+this function returns an image object
+return an image object
+use this function to ensure that a transaction exists
+get the permission object for this request
+load media library object
+delete an error message
+update a volume
+sends a delete request dcnl param p id the new media type
+return an error message for the user
+get media library object dcnl param p instance dcnl return none if the file exists
+return a dict of the user names that can be used to get dcnl an empty string
+create a template object
+this function returns a list of all users
+return a list of all the modules found in the cache
+return the processor architecture dcnl possible results are intel itanium or amd64
+return the processor architecture dcnl possible results are intel itanium or amd64
+return a list of the current page
+this method returns the first format of the given list
+a view that redirects all requests to the get page
+get default configuration options
+return a list of the current page
+validate that value is valid
+this method returns a pyramid wsgi application
+custom view
+delete the user
+custom view
+get the user
+a view that is login protected
+get the user
+update the user
+check if user has changed
+check if user is installed
+return the device with the specified state
+add a user to the user
+this function returns a pyramid wsgi application
+return true if the current transaction is valid
+update the current page
+get current user
+return the current page
+get current user
+get current user
+get the user
+check if user exists
+get current user
+get the user
+delete current user
+get current user
+simple view that can be used to save the user
+sends a post request
+sends a head request dcnl param url url for the new repository dcnl param kwargs optional arguments that request takes
+sends a head request dcnl param url url for the new user to send dcnl param kwargs optional arguments that request takes
+this function returns a pyramid wsgi application
+return the device with the specified state
+get current page
+this function returns a list of page names
+update default user
+check if the request is valid
+get the user
+a view that expects a user into a page
+get current user
+get current user
+get the user
+check if user exists
+get the user
+delete the current page
+get current user
+sends a delete request dcnl param user the user to use for the user to use dcnl param kwargs optional arguments that request takes
+get current page
+sends a delete page
+this function returns true if the answer is valid
+check if the page is valid
+check if page is valid
+add a page to the page
+create a new supernav
+save a server
+musicpd org playback section
+create an event
+add a handler to the handler
+send email
+add a message to the message level
+return a shellescaped version of the user
+execute a user and return a string
+return true if the page is valid
+validate the request page
+send a message to the login page
+this is called when we re running in this case
+create a set of all available widgets
+decode a string into base64 encoded string
+return the path of a pathname
+return list of html theme paths
+runs a function and run it
+return the hash of a file
+return true if text is valid
+check if a path exists
+read a options file and return it
+decorator to make a test function
+load the extension
+make a list of dictionaries
+returns the first item in the list
+build config file
+build the script path
+return a list of paths to sys path
+main function entry
+update a tag
+return the number of items in the token
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+register a template tag
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+expected inclusion no context doc
+expected inclusion no context doc
+expected inclusion no context doc
+this function returns a pyramid wsgi application
+this method returns a pyramid wsgi application
+decorator to make sure the user is enabled
+this function returns a pyramid wsgi application
+create an image tag
+return a dictionary with the given id
+return the number of functoolswrappable address on a string
+this is called when the application is enabled
+update a dictionary with a dictionary
+musicpd org playback section dcnl sets the current time in seconds
+return the description of the plugin type
+return true if there is running
+return the description of the plugin type
+return true if there is running
+update current user
+delete all files
+returns the list of language names found in the given language name
+given an iterator that can be used in place
+find the content of content based on a page of content
+return the full path to the default
+tries to guess the node for the given domain name
+save a dictionary to the database
+helper function to determine the version of a given version
+execute a command and return it
+use this only only on a thread that don t exist
+this function returns a list of valid results
+check if we re running on a frozen error
+check if we re running on this system
+a view that returns a template object
+helper function to determine the version of a given version
+returns the user id for given task
+create a new user
+a view that is login protected
+tries to guess the url
+create a temporary directory
+create a directory if there is a socket
+create a socket
+create a directory if it exists
+create a directory if it exists
+save a dictionary to a function
+write an image to a descriptor
+return the root directory of a file
+update an error message
+musicpd org connection section dcnl sets a list of all available in the client
+this function returns true if a list of plugins
+validate the configuration and return a description
+given a path to a uri
+helper function to determine if the resource exists
+update the server
+regression test for https github com astropy astropy issues
+regression test for duplicate size
+regression test for https github com astropy astropy issues
+regression test for https github com aspx
+test values changed for image
+this function returns a pyramid wsgi application
+get a uuid from the id
+add a handler to a handler
+return the name of the resource type
+this function returns a pyramid wsgi application
+register a function to be called in a page
+check if the page is installed
+this function returns a list of page names
+helper function to return an email address
+return true if user is installed
+helper function to return an error message
+a view that redirects all requests to the login page
+validate a query given
+helper function to make sure the result is a string
+adds a message with the error level
+this method returns the version of the given version
+this method returns a list of page names
+validate the request headers
+returns the user id for the current request
+update current time as a string
+execute a given path and return it
+return a new page
+simple wrapper for request
+add a new app to the database
+delete all logging
+return the path of the given file
+this method gets appropriate file name for testing purposes
+return a list of normalized paths with duplicates removed
+copy a file
+parse an xml tree into a tree
+get the size of a file
+create a new file object
+converts a string into titlecase
+a view that returns a list of request files
+load the data and return a socket object
+update the given sequence
+this function returns a dict of the default application
+update an azure cosmos db collection
+use this method to make sure that they exist
+helper function to generate a certificate
+a view that is login protected
+deprecated use func parse request
+send a message to the socket level
+check if we re running on this system
+check whether this is running in this test
+check if we re running on a frozen error
+serialize a list into a list of objects
+build a list of token names from the given names
+create a list of items in the given names
+this function returns a pyramid wsgi application
+create a new thread object dcnl this is used to set the current thread
+this function returns a pyramid wsgi application
+get a list of names of tuples as a string
+returns a list of all the current thread
+converts a string to a string
+use this function to be used to mark a page
+display the home page
+helper function to get all commands
+this method returns a list of page names
+this view returns a list of page names
+this method returns a list of page names
+add a string to the database
+run a shell
+return a dictionary with the given value
+creates a query to save as a dict
+truncate the given text
+strip leading and trailing whitespace
+converts a text representation of text into a byte string
+truncate the input text into html
+check if a given dict is valid
+convert a language name to a language
+get the default language
+context manager to context manager
+returns the default language name for the given language name
+strip leading and trailing whitespace
+convert a model object into a dictionary
+save the given event object
+execute a command with a given instance
+get default language
+test the default html function
+get the default page
+regression test for issue 9936
+save a dictionary to a list of dictionaries
+return list of tags for a given template names
+this function returns the default html language names
+ask a question
+musicpd org playback section dcnl tag section dcnl tag dcnl tag section dcnl tag foo bar
+returns the description of the given object
+removes all tags from a token
+download all tags from a document
+a view that redirects all requests to the page
+create a set of each distinct value
+musicpd org playback section dcnl shows the current time in seconds
+if user exists
+return the description of the given message
+return the description of the given description
+set default text
+parses a list of available options and returns a list
+remove leading and trailing whitespace
+returns the description of the given description
+sets the description for the current thread
+returns the description of the given object
+returns the description of the given object
+returns the description of the given object
+converts a datetime object to a datetime object
+print out a list of items in the given list
+get current time zone
+update current date in year dcnl param date the number of bytes to check dcnl return the number of seconds
+add a collection to a collection
+generate a random string with random length
+deprecated use func parse url instead
+create a new task object
+generate a random random string
+list all available regions for the | list
+get all available regions for the amazon cloudsearch service dcnl rtype list dcnl return a list of class boto regioninfo regioninfo
+generates a search form for a given description
+list all services
+list all services
+add an action to a page
+return a list of normalized paths with duplicates removed
+return the name of the given name
+convert an arbitrary string to an object
+determine sign character
+serialize a python object into a yaml stream dcnl and produce the corresponding representation of the header
+return the path to a directory
+creates a path to the database
+musicpd org connection section
+update an instance of this machine
+return the current context as a string
+this function returns a pyramid wsgi application
+return true if the current context is installed
+delete all the given data
+tries to guess the filename of the given string
+convert a string into a text representation
+use this decorator to be used to mark a test
+main function
+this view returns a pyramid wsgi application
+a simple view that can be used to use in a page
+iterate over all files in this directory
+copy a file or filelike object into a directory
+write a file to a file
+add a handler to the handler
+update the server
+sends a list of page
+sends a head request dcnl param path optional bytes to send in bytes to send dcnl param kwargs optional arguments that request takes
+send email as html
+load the configuration and returns a dictionary
+convert range to the ed format
+compare two key
+extract the cookies from the response into a cookiejar dcnl param jar httpresponse object
+iterate over slices of a sequence
+convert a string into titlecase
+raises an error if present
+return the size of a file reported by os stat
+runs a cache key
+return true if path is a string
+helper function to make sure the given file exists
+escape a list of html characters in a tree
+converts urls into clickable links
+decode a unicode string
+create a directory if it exists
+convert a time string to a time tuple
+returns a datetime object from utc
+create a new site object
+given a url return the image url
+get a random item from the image
+helper function for scrolled canvas
+convert a list of names into a string
+check if a string is valid
+error message
+return a datetime object from utc
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+create a new user
+test setting an option
+make sure the name is valid
+make sure no arguments are passed
+a simple view that has a custom header
+a simple view that has a custom header
+a simple view that has a custom header
+context manager to ensure we re running on windows
+determine if a given name is valid
+returns true if the user has changed
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+return the url of the given url
+helper function to create a url that can be used to be used
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+helper function for scrolled canvas
+converts a string into titlecase
+converts a datetime to a datetime object
+a view that is login protected
+use this method to make sure that a page has been created
+adds a response object to a response
+set the log message to the log file
+a view that can be used in csrf protection
+add a handler for the user dcnl param user the user the user dcnl param user the user to use dcnl return the user
+this method returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+returns the page of the page
+deprecated use func parse request instead
+context manager to make sure the given string does not exist
+return true if there is running
+this view returns a list of page names
+a simple view that is login protected
+this view returns a list of page
+return a dict of the user
+make sure the given project does not exist
+this is called when we re running in place
+create a new instance of the current thread
+send email
+create an empty string if present in the given version
+create an empty urlconf 404 error response
+create a search form for comparison purposes
+save a directory to the specified directory
+check if user exists
+check whether the given uri is valid
+check if the user has been changed
+return true if the current transaction is
+checks if the request has been imported in the same page as dcnl this function is used to make sure that the request has dcnl been changed
+musicpd org connection section dcnl send section dcnl sets a list of times to send in seconds
+get default password
+return a list of email addresses found in the user
+musicpd org connection section dcnl musicpd org connection section dcnl sets the section dcnl section 3 4 dcnl print section dcnl section 3 4 dcnl print section 3 4 5
+get the default session
+default view
+get the user id for a given project
+decode a bson timestamp to python tuple
+return the current user name
+create an empty port that can be used in this tree
+this function returns the text of the given text
+return the description of the given key
+a simple view that can be used by default
+removes a document from the model
+this method returns a pyramid wsgi application
+musicpd org connection section dcnl section dcnl sets the section of the section dcnl section dcnl section 3 5 dcnl section 3 5 dcnl section 3 5 2
+check if a given model has been changed
+check if the current transaction is valid
+deprecated
+a wrapper around pprint pprint for debugging really
+a wrapper around pprint pprint for debugging information
+this function returns a pyramid wsgi application
+a simple view that can be called with a page
+returns true if the current transaction is
+return current ip address
+helper function to create timer object
+create a search function
+close a document
+helper function to convert a number to an integer
+validate a module returning true if the module was found
+validate a configuration request
+given a url return the url to the url
+update a url with the given value
+log a message with severity info on the root logger
+update the request handler
+ask a question
+update an error message
+get the root directory of this file
+get the full path to a directory
+generate pseudorandom number
+return the ip address of the current server
+decode a string into titlecase
+converts a string into titlecase
+return the full path to cscript exe or none
+add documentation to a function
+get the home page
+returns the name of the current site
+find the top level namespace
+generate a new temporary file
+close the logger
+decode a json representation of an element
+ensure no url are installed
+ensure no url is installed
+tries to guess the url
+make sure the full path is valid
+make sure the full path is valid
+make sure the url is valid
+check if a url is valid
+flatten a list
+add sitepackages and user
+convert a datetime to utc
+generate config file
+make sure the contents of a file exists
+login for request
+custom view
+custom view
+create an error message
+a wrapper around pprint pprint for debugging output
+render a template
+return a list of page where the user has been added to the dcnl user
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar
+converts a string to a string
+delete filename
+this function returns a pyramid wsgi application
+get an object or raise if it does not exist
+parse a string or filelike object into a tree
+converts a sequence of elements into a sequence
+return list of user objects for given user
+given a url remove the fragment and the authentication part
+converts a datetime to a datetime object
+get the default language
+convert an arbitrary string to a standard version string
+this function returns a list of space characters
+decorator to add a function to the given option
+decode string
+return the current date in the current time zone
+sets the result of a document dcnl param url dcnl param url the url to use dcnl param kwargs optional arguments that can be used to be used
+returns a string representation of the current token
+convert a datetime object to utc
+make sure a url is valid
+adds a message with the warning level
+log a message with severity debug on the root logger
+helper function for scrolled canvas
+return a dict with the current user
+this method returns a pyramid wsgi application
+get default language
+set the description of the given text
+reset the server
+return the description of the given url
+helper function to make sure the given url
+find the top level namespace
+split a path into a path
+parse a query given
+check if the tag is valid
+sets the given properties on a field of the given dictionary
+a view that is login protected
+redirect to remote user
+a view that is login protected
+a view that is login protected
+skip a test if the condition is true
+a simple view that can be used as a simple view
+error message handler
+converts the given number into a string representation
+a simple view that can be used as a view string
+check if a string is valid
+validates that value is valid
+returns the current user name
+return true if url is installed
+parse a document
+convert a string into html characters
+return a list of page where the user has been built
+this function returns a pyramid wsgi application
+this function returns a list of page names
+this function returns a pyramid wsgi application
+a view that redirects all requests to the user
+check if user exists
+update the user
+if user is installed
+check if user exists
+a view that can be used as login protected
+a simple view that is login protected
+sends a head request
+simple view to echo back info about uploaded files for tests
+creates a ctypes function that returns a list of times
+send message to writer
+redirect to file
+send a handler to be used
+send signal to create a server
+create a handler that can be used to save a socket
+update log file
+send a server
+helper function to return a list of filenames
+creates a list of files found in the given path
+add a handler to the internal cleanup list
+make sure there are no handlers
+update log mode
+close the server
+update log mode
+return the current page
+sends a put request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+return the current user
+generate pseudorandom number
+get a text representation of a code object
+remove the text from a document
+get the default path as a string
+deprecated use func parse url instead
+return true if the current branch is valid
+find the first line in this tree
+returns the current thread
+return the current thread
+this function returns a pyramid wsgi application
+return list of html theme paths
+escape a value in a string
+return the text of the given text
+given a path to a url return a url
+tries to guess the filename of the given path
+check if the given uri is valid
+return the full url to the current page
+add a bearer token to the request dict
+return a dict of environment proxies
+build a dictionary from the config file
+return a dictionary with the given value
+helper function to get page names
+get the default script name for the current thread
+create a new token with the specified user
+create a new token with the current user
+create a new user with the current user
+create a new token with the current user
+create a new token with the specified user
+create a temporary directory
+create a temporary directory
+create a new user
+create a new user
+create a project
+create a temporary directory
+fixture which provides a fake connection object
+verify that a path is valid
+get a url with a url
+test that no url raises an error
+regression test for roles
+test setting validation
+create an empty urlconf 404 error response
+create an empty urlconf 404 error response
+create a decimal instance directly without any validation dcnl normalization e g removal of leading zeros or argument
+test default project
+test default site
+verify that a string doesn t exist
+test that filename can be imported correctly
+test setting the default title
+make sure the given path is valid
+make sure a path is valid
+ensure we re running in this case
+check that the url is valid
+make sure the default document is valid
+when given a url is valid
+ensure no urls are installed
+ensure no user is installed
+check that the url is valid
+make sure the given path is valid
+helper function to parse xml tokens
+create a new page
+this function returns a pyramid wsgi application
+turn a string into html on the given text
+create a new group
+return true if user exists
+make sure a path is valid
+list all groups
+todo
+test that a string raises an exception
+test jsonreport output with given name
+make sure the given template is raised
+regression test for https github com aspx
+test that replay parse filename
+test that replay dump raises valueerror
+test that mode raises an exception
+test start with content
+test start with content
+test default template
+test setting the default page
+test start with no content
+test default page
+test that replay dump raises an exception
+test the default page
+test default page
+test the default page
+make sure a path is valid
+update the default page
+regression test for download true
+fixture which provides a template object
+test that replay dump raises an exception
+test that there is no argument
+test that replay dump raises an exception
+make sure user works
+make sure the user works
+ensure no user is installed
+create a new site
+create a new site
+register a service
+terminate the ssh session
+make sure the default site is enabled
+regression test for roles
+regression test for https github com astropy astropy issues
+pgm portable graymap
+pgm portable graymap
+todo revisit
+ensure a path is valid
+todo revisit
+load a dictionary
+this method is called when it exists
+set the given path to a namespace
+set the extension in this module
+deprecated use func instead
+get current user
+split urls into clickable links
+helper function to generate a script string
+format a text representation of tokens
+find the current page
+this view returns a page
+get current user
+if user is installed
+get current user
+delete current user
+get current user
+get current user
+this function returns a pyramid wsgi application
+type args env dcnl rtype liststr
+wrapper for request response which will return an http response
+this function returns a pyramid wsgi application
+internal function
+get current page
+get a list of page from the user
+get current page
+get current page
+update a page
+get current page
+get current page
+get current page
+get current user
+get current page
+adds a page to the page
+get current page
+get the content of the current page as a string
+this method gets appropriate text for the given tree
+helper function to get a page
+set the host
+this function returns a pyramid wsgi application
+get the default language
+this view returns a list of page names
+update current user
+get current user
+this method returns a list of the current page
+check if user exists
+get current user
+get current user
+get current user
+helper function to generate a page
+use this function to find the current thread
+creates a query document
+deprecated use func parse url instead
+return a template object
+use this method to use for csrf protection
+this function returns a pyramid wsgi application
+update a namespace object
+create a new model object
+get a list of page
+return true if idle is using a cocoa aqua tk
+check if the current user is valid
+tries to guess the filename of the given object
+tries to guess the filename of the given object
+return text representation of text
+given a list of pathnames returns the longest common leading component
+build an xml node
+convert a sequence of names into a dictionary
+format a tree into a tree
+find the top level namespace
+return a description of the given object
+helper function to determine the ed format
+decorator to add a function to a handler
+deprecated use func parse func instead
+a view that responds with the current token
+check if a path exists
+musicpd org playback section
+sets up the cached localzone you need to call this
+create a new document
+returns the home page
+a wrapper around pprint pprint for debugging information
+returns a dict of environment proxies
+a view that can be used in a url
+helper function to create a url pattern with a url
+convert range to the ed format
+get current time zone
+get current range
+create an empty search document
+get the main page
+returns the current page
+check if user is installed
+helper function to retrieve a list of page names
+get default proxy
+this method returns the ip address of the request
+return a list of records for a given filename
+given a list of pathnames returns the longest common leading component
+helper function to create timer object and returns it
+make sure that they are supported
+make sure that all parameters are installed
+returns the url of the given url
+gets a list of functions that have been set
+raises an error if available
+create a new model object
+this view returns a valid page
+get the main page
+a simple view that can be used as an integer
+this method returns true if the answer is valid
+make sure the default password is valid
+generate a random key
+make sure the given path is valid
+fixture which provides a fake token object
+create a temporary directory
+create a new user
+create a temporary directory
+make sure we re running in this case
+test that replay parse filename returns none
+make sure a path is valid
+test that replay dump raises an exception
+test values changed for tests
+make sure the full path is installed
+test values changed for tests
+test that replay dump raises an exception
+test that replay dump raises an exception
+test that filename can be instantiated
+make sure path is installed
+test that replay parse path works
+verify we re running in this case
+test that default is returned
+test that replay dump works
+make sure we re running in this case
+test that replay dump works
+test that replay dump works
+make sure the path is installed
+test that filename can be instantiated
+test that replay dump works
+test that replay dump raises an exception
+test that replay parse file returns none
+create a default document
+test that a string raises an exception
+ensure that the path is installed
+test that replay dump works
+ensure a file exists
+test that replay dump works
+ensure that the path is installed
+test that replay dump raises an exception
+ensure that a path is valid
+make sure path is installed
+test that replay dump raises an exception
+test that replay dump raises an exception
+ensure we re running in this case
+make sure the default config was installed
+test the main page
+test the main page
+set up a module s module
+make sure the full path can be used to make sure dcnl no argument
+this function returns a pyramid wsgi application
+fixture which provides a fake test object
+make sure the name is set correctly
+assert that the tpot interface should not work in this case this is not a valid scenario
+make sure the given number is raised
+test that replay dump raises an exception
+test that there is a valid string
+assert that tpot cli interface works with no x
+assert that tpot s interface works with no exception
+test that all files are installed
+add a list of tags in the context
+create a new context with no tags
+make sure the given template is present
+make sure there are no effect
+ensure a default password is set correctly
+ensure a list of tags exists
+make sure the path is installed
+ensure no tags are installed
+test that all roles are installed
+make sure a path is valid
+make sure there are no extension
+make sure there is no yaml
+ensure there are no urls
+ensure a path is installed
+ensure no user is installed
+ensure there are no effect
+ensure user is installed
+make sure the default user is set
+fixture which provides a valid user
+return true if path is a page
+this function returns a pyramid wsgi application
+test that replay dump works
+verify that value is valid
+test start with given name
+test that all names are supported
+check that value is returned
+test that the default value is returned
+test that the default value is returned
+regression test for issue 9936
+regression test for https github com enus
+check that text can be instantiated
+check that the default language is returned
+check that the default value is returned
+test that value is returned
+make sure a path is valid
+test that stream is valid
+make sure we re running on this test
+make sure the name is set correctly
+test that replay dump raises an exception
+test that replay dump raises an exception
+test that replay dump raises an exception
+test that replay dump raises an exception
+make sure we re running in this case
+regression test for issue 9936
+test that a url is valid
+test values changed for tests
+test that replay dump raises an exception
+test that replay load works when given a version
+test that the default service is returned
+make sure we re running in this case
+make sure we re running in this case
+test that replay dump raises an exception
+make sure the full path is present
+make sure a path is valid
+ensure that there are no urls
+fixture which provides a directory to be removed
+create a temporary directory
+make sure the full path is valid
+make sure the full path is valid
+make sure the full path is raised
+make sure a path is valid
+test that replay dump raises an exception
+make sure a path is valid
+make sure there are running
+set up the ssh session
+ensure a user exists
+ensure user exists
+make sure user is installed
+test that replay dump raises an exception
+ensure user exists
+ensure a user exists
+make sure the full path is installed
+make sure path is installed
+make sure the path is installed
+make sure the path is installed
+make sure the path is installed
+make sure the path is installed
+make sure the given path is raised
+when given a path is raised
+make sure a path is valid
+test that a default is returned
+ensure that the parent file is valid
+test that replay dump raises an exception
+make sure a path is valid
+make sure a document is valid
+make sure a list of arguments
+ensure that the path is installed
+make sure the path is installed
+ensure that a path is valid
+test that replay dump raises an exception
+make sure we re running in this case
+make sure a path works with a directory
+update a tag
+execute a command
+return a list of normalized words
+return the size of a file
+return the id of the database
+return true if path exists
+execute a command
+return the id of a process
+returns the id of the given id
+make sure the given file exists
+decorator to add a function to a function
+get error message
+get a random item
+generate a random wordlike string
+returns the regularized objective matrix
+generates a ctypes function that returns an integer value
+generate a random sentencelike string
+takes a list of text tuples and returns a string
+creates a text document
+return a generator that can be added to the given tree
+creates a text document
+format a text representation of a document
+generate a parsed text from bytes
+generate a text representation of a coordinate string
+creates a text document
+transform a document
+helper function to generate urls
+convert a coordinate string into titlecase
+calculate the difference between two words
+calculate the greatest common divisor of a string
+factorial
+convert integer to ap string representation
+convert x y matrix to numpy matrix
+set the device
+this function is called when it is called
+this is called when you want to do anything
+read 4096 units at a time
+return the size of a file
+return the id of the database
+return true if path exists
+execute a command
+return the id of a process
+returns the id of the given id
+make sure the given file exists
+helper function for scrolled canvas
+helper function to determine the ed format
+helper function for scrolled canvas
+helper function for scrolled canvas
+helper function to determine the ed format
+helper function for scrolled canvas
+move an image to an image
+move a batch of images
+helper function for scrolled canvas
+helper function to determine the ed format
+check the given offset in seconds
+return an iterator over the time zone
+helper function to find all files
+split a 1hot encoding and return it
+convert a numpy array into numpy array
+return the directory of the file
+return the size of a file
+return the length of the maximum number of words
+this function takes a range and returns its size
+decorator to add a function to a function
+get error message
+return the smallest item from a tensor
+generate a random wordlike string
+returns the regularized objective matrix
+generates a ctypes function that returns an integer value
+takes a list of text tuples and returns a string
+creates a text document
+generate a random document
+return a generator that can be added to the given tree
+creates a text document
+format a text representation of a document
+generate a parsed text from bytes
+generate a text representation of a coordinate string
+creates a text document
+transform a document
+helper function to generate urls
+convert a coordinate string into titlecase
+calculate the difference between two words
+calculate the greatest common divisor of a string
+factorial
+convert integer to ap string representation
+convert x y matrix to numpy matrix
+helper function to create a directory
+kbengine method
+kbengine method
+return true if idle is using a cocoa aqua tk
+returns a basic auth string
+get a file with the specified url
+update a url
+splittag path tag path tag
+redirect to file
+delete a url
+tries to guess the url of the given path
+create a new url
+delete url
+update a document
+create a new url
+get a file with the specified url
+update a url
+splittag path tag path tag
+redirect to file
+delete a url
+tries to guess the url of the given path
+returns a dictionary with all items in the given dictionary
+given a url and a url return a url
+generic error message handler
+return a dict of the settings
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+deprecated use func parse url instead
+create a new url
+get the url for a url
+delete url
+update a document
+guess the url url
+create a new url
+create a new url
+get a file with the specified url
+parse the contents of a file
+update a url
+splittag path tag path tag
+redirect to file
+delete a url
+tries to guess the url of the given path
+create a new tag
+sends a delete request
+update a new url
+delete an image tag
+splittag tag path tag
+create a new url
+get a file with the specified url
+read a file and parse its contents into a dictionary
+update a url
+splittag path tag path tag
+redirect to file
+delete a url
+tries to guess the url of the given path
+this function returns a pyramid wsgi application
+validate a request
+deprecated use func parse url instead
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+this function returns a pyramid wsgi application
+return true if config has changed
+return true if config has changed
+load a dictionary
+save a dictionary to a dictionary
+check if a file exists
+ensure that the parent directory of path exists
+convert range to the ed format
+helper function to make sure the node is a dict
+get a list of paths to a filename
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+helper function to make sure they start and end
+check if the coordinate sequence is valid
+creates a ctypes function that returns an integer value
+converts the given number to a string
+musicpd org playback section
+validate that we re currently running in this case
+helper function to create timer object
+check if a given name is valid
+get the first item from a string
+helper function to create timer object
+validate that value is valid
+helper function to create timer object
+validate a geometry
+validate that a sequence is valid
+validate that value is valid
+validate that value is valid
+return an iterator over all elements of the given sequence
+find the first character of the given size
+given a number of bytes return a number of bytes
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+convert range to the ed format
+convert range to the ed format
+converts a string into titlecase
+validate that value is valid
+validate that value is valid
+converts a string into titlecase
+convert a list of batches back into titlecase
+validate that value is an integer
+validate that value is valid
+converts the given number to a string
+returns the total mask of the given value
+helper function to make sure the given number in bytes
+helper function to create timer object and call timeit method
+helper function to create timer object
+helper function to make sure the given size and returns it
+helper function for scrolled canvas
+helper function to make sure the text is used
+helper function to make sure the text is used to make it
+this function returns the difference between two vectors
+return the name of the given name
+check if a given version is valid
+determine if a given value is valid
+helper function to return a list of names of the given value
+validate that value is valid
+create a ctypes function that may not have a given length
+validate that value is valid
+save a range of words
+return the pointer argument s argument
+returns the first word in the given number of words
+helper function to create timer object
+validate a script
+helper function to create timer object
+helper function to create timer object
+creates a query given as a string
+create a random column of length in given length
+helper function to create timer object
+validate that this is valid
+helper function to return a list of records
+check if the group exists
+check if a resource exists
+creates a list of records for the given line
+validate that a given sequence is valid
+create a new text with the given text
+helper function to create timer object
+helper function to make sure the first line has been read
+given a list of bytes return the longest common leading component
+helper function to make sure the parameters
+generates a ctypes function that returns a dictionary
+return a generator pb2 generatorbundle object
+get config file
+converts a string into titlecase
+validate that value is valid
+convert range to the ed format
+converts a dictionary into titlecase
+validate that value is an integer
+helper function to make sure the first element in the given number
+find the first character of the given size
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+convert range to the ed format
+given a number of bytes return a number of bytes
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+turn a 10tuple as returned by parsedate tz into a posix timestamp
+convert range to the ed format
+converts a string into titlecase
+convert a list of batches back into titlecase
+convert range to the ed format
+return the compilerflags associated with the given path
+initialize theano shared variables
+return an image document
+type args environmentconfig dcnl rtype str
+generate an image file
+ask for an image given image
+set up a gpio as output
+check if key is valid
+update a set of images in the model
+get the configuration and returns a dictionary
+get config object from config
+return a dict of configuration config file
+return a generator that can be used to create a new model
+return a generator representation of an image
+type args dcnl rtype liststr
+makes sure the result is valid
+compute nt zeros of an image
+update the given description of the given object
+set the position of the given sequence
+return the path of the file
+parse an arbitrary number into a standard distribution name dcnl args dcnl name the name of the variable to parse dcnl returns dcnl a tensor
+add a path to a file
+given a query given as a string argument
+create a new filename
+creates a new filename
+returns the name of the given object
+return a list of names of methods of names
+helper function to convert a file name into a dictionary
+return a dict of names of names that have been found
+add a single character
+compare two key
+convert range to the ed format
+converts a dictionary into a dictionary of keys
+return the description of the given object
+helper function to determine the given path
+returns the path of a given path
+returns the text of the given line
+get a style line
+returns the text of the given text
+returns the size of a tensor dcnl arguments dcnl x a tensor or variable dcnl returns dcnl a tensor or variable dcnl a tensor
+iterate over all nodes
+convert image to image format
+return a shellescaped version of the statement
+converts a text into titlecase
+install or upgrade setuptools and easyinstall
+verify that a string is valid
+convert urls into clickable links
+converts a string into titlecase
+convert range to the ed format
+format a color to color
+converts a text into titlecase
+convert a numpy array into an integer dcnl args dcnl x a tensor or variable dcnl returns dcnl a tensor with shape length a tensor
+convert an x y into a standard distribution dcnl args dcnl x a tensor or variable dcnl returns dcnl a tensor with shape length a tensor
+returns a ctypes function that can be used to use with dcnl parameters dcnl args dcnl kwargs optional arguments that takes dcnl returns dcnl a tensor with the given arguments
+returns the value of the tensor dcnl arguments dcnl x tensor or variable dcnl returns dcnl a tensor
+return the description of the given value
+returns the description of the given text
+this method gets appropriate text
+returns the description of the given text
+return the description of the given line
+check if a resource exists
+helper function to create timer object
+convert a value into a dictionary
+convert range to the ed format
+return the module name of the given module name
+return a dict of environment variables
+check if file exists
+set default proxy port to set default proxy
+get file args env dcnl execute the executable file which is searched for along path
+set the filename of this file
+return the directory of the file
+return the path of the file
+save a file to a file
+get a template file
+this function returns a list of names
+return true if the item is a string
+get a list of names of methods of obj
+validate that the object is valid
+replace substrings of a string using a dictionary
+return a list of names of names that have been set
+convert a project name to its name
+convert an object to a class name
+this method returns the name of the given object
+given a path to an object or a path
+check if a given object exists
+return the value of a given object
+check if a path is a directory
+return a list of records for a given node
+get all files in a given path
+return a generator that can be used as a dict
+musicpd org playback section dcnl sets the function of the given function in the graph
+return a list of names of methods of methods
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+ask a question
+remove quotes from a string
+requote the given uri
+return a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+given a url remove the fragment and the authentication part
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+helper function to convert urls into a socket
+returns a cookiejar from a key value dictionary
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parses a url and returns a url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+returns a basic auth string
+move the image to an image
+helper function to determine the internal function
+returns a session object
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+deprecated use func parse url instead
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+musicpd org playback section dcnl sets the path of path to the current platform
+converts a string into titlecase
+get current user
+ask a question
+check if password exists
+given a url with authentication components return a url
+format a message with the debug level
+default configuration file
+tries to guess the filename of this build
+execute a command
+add a command to the context
+return the path of a url
+deprecated use func parse url instead
+install or upgrade setuptools and easyinstall
+check if url is valid
+update a warning message
+update an error message
+clear the cache
+sends a message
+send a message to be used when instantiating a warning
+get the cache cache
+delete the url url
+return a list of paths to the current files
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+return a basic auth string
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+ask a question
+remove quotes from a string
+requote the given uri
+returns a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+helper function to convert urls into a socket
+returns a cookiejar from a key value dictionary
+decorator to add a query to the given function
+removes all parameters from a dict with a dict or a dictionary dcnl param params dcnl return a dictionary containing the query parameters dcnl return a dictionary with the keys of params
+escape < and in a string dcnl param value the value to escape dcnl param value dcnl return dcnl rtype str
+escape a query given as a dict dcnl param dict a dict of values to escape dcnl return a dictionary with dcnl rtype dict
+parse a list of strings into a dictionary
+given a url return a list of header names
+parses an http header
+convert a header value to a response
+set default config file as a dict
+renders the response as a string
+adds a uri using the regex given as a string
+given a uri dcnl param uri uri the uri to uri dcnl param uri the uri dcnl param uri uri uri uri dcnl param uri the uri dcnl return a tuple or none
+escape a value in a given value
+add a page to the request page
+adds a value to the request body
+parse a query given as a string argument
+parse a query given as a string argument
+extract the response from the response as a dictionary
+validate a request
+add a bearer token to the request uri
+add a bearer token to the request uri
+add a bearer token to the request uri
+add a bearer token to the request body dcnl access token h480djs93hd8 dcnl bearer token http tools ietf org html rfc5849 section3 6
+encode a string using a dictionary
+converts a string into a list of strings
+parse a query given
+extract the first element from a dictionary
+generate pseudorandom number
+get seconds since epoch utc
+generate a random string
+add a query given as a string
+add a uri to the given uri
+converts a string into titlecase
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parses a url and returns a url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+returns a basic auth string
+this function takes a string and returns it as a string
+move the image to an image
+returns the client to be used when instantiating a dict
+returns a class session for the given session
+use this decorator to use in a request
+use this method to ensure that it does not exist
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+register a module returning a module object
+return the object name of the given object
+ask a question
+helper function to get files that can be used as a dict
+list all lineending characters
+list all modules
+reset the most recent savepoint if they exist
+print a function to a function
+this method is used to check whether or not supported
+list all services
+given a path to a url return a url
+convert a path to a uri
+adds a date in seconds into a utc date
+return a tuple containing current date as a string
+parses a date in the given number of days
+parses a string from the given number of characters
+parse a set of date value into a string
+parse a set of date value into a tuple of dcnl year month
+returns a tuple containing the schemes names
+parses a date in the current date as a string
+parse a datetime object into utc
+parse a string or filelike object into a tree
+parse a date value into a tuple
+converts a string into titlecase
+helper function to generate a page
+parse a query given as a string argument
+returns an internal sequence dictionary update
+return the path of the source
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+return the full path to cscript exe or none
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+get the http header
+remove quotes from a string
+requote the given uri dcnl this function passes the given uri through an unquote quote cycle to dcnl ensure that it is fully and consistently quoted
+convert an ip address to an ip address
+converts mask from xx format to xxx xxx xxx xxx dcnl example if mask is 24 function returns 255 255 255 0
+check if ip address is valid
+check if a url is valid
+return a dict of environment proxies
+given a url with authentication components extract them into a dict
+return a string representing the default user agent
+parse a query given as a string argument
+given a url remove the fragment and the authentication part
+given a url with authentication components extract them into a tuple of dcnl username password
+given a string object regardless of type returns a string
+given a url remove the fragment and the authentication part
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+converts a value to an integer
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+get the line number from a line
+main function entry
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+return true if the input is an integer
+check if password is valid
+add a message to the debug level
+helper function to get all urllib3 warnings
+guess the contenttype of a file dcnl param filename dcnl the filename to guess the contenttype of using mod mimetypes dcnl param default
+return a string representation of a header
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+iterate over all fields of a dictionary
+encode a string into base64 string
+check if a file is valid
+assert that the given header string raises an exception
+return true if the response is a valid form
+returns the current time zone
+return true if idle is using a cocoa aqua tk
+assert that the tpot address is valid
+given a query that is a valid domain name
+tries to guess the filename of the given version
+create a new certificate
+tries to guess the host
+return true if the connection is shutting down
+create a host for the specified host
+split the first index into a list of elements
+given a url return a url url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+create a url with the authentication
+monkeypatch urllib3 with pyopensslbacked sslsupport
+undo monkeypatching by func inject into urllib3
+returns a basic auth string
+log a 10tuple as returned by parsedate compatibility
+returns true if config has changed
+this method returns a pyramid wsgi application
+returns a session object
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request returns class response object
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+create a base class with a metaclass
+add documentation to a function
+returns true if the given object should be used
+returns the filename of the given file
+returns the text of the given text
+given a url with authentication components extract them into a url
+get a proxy by host port
+sets the default time zone
+returns the global timeout setting for the current thread
+create a new wsgi application object
+determine if the clip has changed
+validate that value is valid
+register a module returning a module object
+return the object name of the given object
+scan a yaml stream and produce scanning tokens
+parse a yaml stream and produce scanning tokens
+parse the first yaml document in a stream dcnl and produce the corresponding representation tree
+parse all yaml documents in a stream dcnl and produce corresponding representation trees
+parse all yaml documents in a stream dcnl and produce corresponding python objects
+parse all yaml documents in a stream dcnl and produce corresponding python objects
+parse all yaml documents in a stream dcnl and produce corresponding python objects
+parse all yaml documents in a stream dcnl and produce corresponding python objects
+print a text representation of a code object
+serialize a yaml stream and produce scanning tokens
+serialize a python object into a yaml stream dcnl produce only basic yaml tags dcnl if stream is none return the produced string instead
+serialize a python object into a yaml stream dcnl if stream is none return the produced string instead
+serialize a python object into a yaml stream dcnl produce only basic yaml tags dcnl if stream is none return the produced string instead
+serialize a python object into a yaml stream dcnl produce only basic yaml tags dcnl if stream is none return the produced string instead
+serialize a python object into a yaml stream dcnl produce only basic yaml tags dcnl if stream is none return the produced string instead
+add a representer for the given tag dcnl representer is a function accepting a dumper instance dcnl and an instance of the given node with the given node
+add a representer for the given path
+add a constructor for the given tag dcnl constructor is a function accepting a dumper instance dcnl and a node object and produces the corresponding python object
+add a representer for the given tag tag dcnl representer is a function accepting a dumper instance dcnl and an instance of the given tag given tag name
+add a representer for the given type
+add a representer for the given type
+return true if idle is using a cocoa aqua tk
+return the length of str considering only characters below max
+this function returns a tuple of each element in the list
+install or upgrade setuptools and easyinstall
+entry point for bench
+context manager to create a fake server
+returns the home page
+clear the cache cache
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+remove quotes from a string
+requote the given uri
+return a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+given a url remove the fragment and the authentication part
+given a url with authentication components extract them into a tuple of dcnl username password
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+helper function to convert urls into a socket
+returns a cookiejar from a key value dictionary
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parses a url and returns a url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+given a query that is a valid domain name
+tries to guess the filename of the given version
+test whether a character is valid
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+monkeypatch urllib3 with pyopensslbacked sslsupport
+undo monkeypatching by func inject into urllib3
+returns a basic auth string
+makes sure the result has been changed
+helper function to determine the internal function
+returns a session object
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+return the directory component of a pathname
+register a module returning a module object
+return the object name of the given object
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+read a file and return it as a dictionary
+tries to guess the filename of the given path
+musicpd org playback section
+check if we re running in this directory
+this function returns a tuple containing the most likely dcnl representation
+get the description for a given token
+install or upgrade setuptools and easyinstall
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+remove quotes from a string
+requote the given uri
+return a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+given a url remove the fragment and the authentication part
+given a url with authentication components extract them into a tuple of dcnl username password
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+converts a value to an integer
+returns a cookiejar from a key value dictionary
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parse a url given as a url argument
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+given a query that is a valid domain name
+tries to guess the filename of the given version
+test whether a character is valid
+return true if a file is a descriptor
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+monkeypatch urllib3 with pyopensslbacked sslsupport
+undo monkeypatching by func inject into urllib3
+returns a basic auth string
+makes sure the result has been changed
+returns true if config has changed
+returns a session object
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+return the directory component of a pathname
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+ask a question
+remove quotes from a string
+requote the given uri
+return a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+given a url remove the fragment and the authentication part
+given a url with authentication components extract them into a tuple of dcnl username password
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+helper function to convert urls into a socket
+returns a cookiejar from a key value dictionary
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parses a url and returns a url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+given a query that is a valid domain name
+tries to guess the filename of the given version
+test whether a character is valid
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+monkeypatch urllib3 with pyopensslbacked sslsupport
+undo monkeypatching by func inject into urllib3
+returns a basic auth string
+makes sure the result has been changed
+helper function to determine the internal function
+returns a session object
+sends a request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+return the directory component of a pathname
+return a string containing the schemes names
+return a string containing the schemes names
+check if we re running on this system
+install or upgrade setuptools and easyinstall
+check if url is valid
+update a warning message
+update an error message
+clear the cache
+sends a message
+send a message to be used when instantiating a warning
+get the cache cache
+delete the url url
+return a list of paths to the current files
+returns an internal sequence dictionary update
+return the path of the given path
+tries to guess the filename of the given object
+convert a list of value into a dictionary
+convert a list of value into a string
+parse a value into a list of strings
+parse a value into a dictionary
+unquotes a header value reversal of func quote header value dcnl this does not use the real unquoting but what browsers are actually dcnl using for quoting dcnl param value the header value to unquote
+return a basic auth string
+returns a cookiejar from a key value dictionary
+returns a cookiejar from a key value dictionary
+returns the content of a given word
+return the content of the content as a string
+decode a string into an ascii string
+iterate over slices of a string
+given a string object regardless of type returns a string
+ask a question
+remove quotes from a string
+requote the given uri
+returns a dict of environment proxies
+return the current version of the current environment
+parse a query given as a string argument
+extract the cookies from the response into a cookiejar dcnl param jar cookielib cookiejar not necessarily a requestscookiejar dcnl param request our own requests request object dcnl param response urllib3 httpresponse object
+produce an appropriate cookie header string to be sent with request or none
+removes a value from a url
+adds a value to a value
+helper function to convert urls into a socket
+returns a cookiejar from a key value dictionary
+same as a url
+remove the given uri dcnl this is used to replace a url with the given url and a url
+this function returns a pyramid wsgi application
+generate a dictionary from a dictionary
+helper function to convert a key value into a dictionary
+generate a random key
+turn a 10tuple as returned by parsedate compatibility
+checks whether a request has been changed
+checks whether a user has changed
+tries to guess the contenttype of a configuration file
+decorator to add a query to the given function
+removes all parameters from a dict with a dict or a dictionary dcnl param params dcnl return a dictionary containing the query parameters dcnl return a dictionary with the keys of params
+escape < and in a string dcnl param value the value to escape dcnl param value dcnl return dcnl rtype str
+escape a query given as a dict dcnl param dict a dict of values to escape dcnl return a dictionary with dcnl rtype dict
+parse a list of strings into a dictionary
+given a url return a list of header names
+parses an http header
+convert a header value to a response
+set default config file as a dict
+renders the response as a string
+adds a uri using the regex given as a string
+given a uri dcnl param uri uri the uri to uri dcnl param uri the uri dcnl param uri uri uri uri dcnl param uri the uri dcnl return a tuple or none
+escape a value in a given value
+add a page to the request page
+adds a value to the request body
+parse a query given as a string argument
+parse a query given as a string argument
+extract the response from the response as a dictionary
+validate a request
+add a bearer token to the request uri
+add a bearer token to the request uri
+add a bearer token to the request uri
+add a bearer token to the request body dcnl access token h480djs93hd8 dcnl bearer token http tools ietf org html rfc5849 section3 6
+encode a string using a dictionary
+converts a string into a list of strings
+parse a query given
+extract the first element from a dictionary
+generate pseudorandom number
+get seconds since epoch utc
+generate a random string
+add a query given as a string
+add a uri to the given uri
+converts a string into titlecase
+add documentation to a function
+import module returning the module after the last dot
+add an item to six moves
+remove item from six moves
+return an iterator over the keys of a dictionary
+return an iterator over the values of a dictionary
+return an iterator over the key value pairs of a dictionary
+create a base class with a metaclass
+check if password is valid
+add a message to the log level
+split the first index into a list of elements
+parses a url and returns a url
+deprecated use func parse url instead
+given a url with authentication components extract them into a dict
+return true if the connection has been changed
+our embarassinglysimple replacement for mimetools choose boundary
+iterate over all fields of a dictionary
+encode a string
+create a url with the authentication
+returns a basic auth string
+this function takes a string and returns it as a string
+move the image to an image
+returns the client to be used when instantiating a dict
+returns a class session for the given session
+use this decorator to use in a request
+use this method to ensure that it does not exist
+sends a get request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a head request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a patch request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+sends a delete request dcnl param url url for the new class request object dcnl param kwargs optional arguments that request takes dcnl return class response <response object dcnl rtype requests response
+register a module returning a module object
+return the object name of the given object
+encode a string into base64 string
+execute a file in the given path
+delete a command
+create a new template object
+deprecated
+deprecated use func parse url instead
+deprecated use func parse url instead
+parse an xml document
+this function returns a list of page files
+get current context
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+encode a string into base64 string
+deprecated
+deprecated use func parse url instead
+deprecated use func parse url instead
+type args environmentconfig dcnl type id str
+read a file and parse it into a tree
+create a new template object
+deprecated
+delete a command line
+this function returns a pyramid wsgi application
+this function returns a pyramid wsgi application
+this function returns a list of command names
+helper function to determine the ed format
+sort and return a list of names
+return a generator that can be used by default
+return true if idle is using a cocoa aqua tk
+return the length of str considering only characters below max
+this function returns a tuple of each element in the list
+get the number of days in the results
+return a list of filenames with duplicates removed
+install or upgrade setuptools and easyinstall
+check if url is valid
