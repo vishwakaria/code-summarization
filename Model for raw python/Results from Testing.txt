@@ -1,0 +1,5 @@
+PRED AVG SCORE: -1.2110, PRED PPL: 3.3568
+GOLD AVG SCORE: -6.7831, GOLD PPL: 882.7689
+Total translation time (s): 1189.670071
+Average translation time (s): 0.297492
+Tokens per second: 17.032453
