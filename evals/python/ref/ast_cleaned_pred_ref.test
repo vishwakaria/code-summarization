@@ -1,0 +1,1110 @@
+ignores a twitter account from showing up in the aoa tool
+unignores a twitter account from showing up in the aoa tool
+return the dict needed for tweets html to render a tweet + replies
+fetch a list of tweets dcnl args dcnl limit the maximum number of tweets returned dcnl max id return tweets with tweet id less than this dcnl reply to return only tweets that are replies to the given tweet if dcnl none return only toplevel nonreply tweets dcnl filter one of the keys from filters
+ajax view returning a list of tweets
+customer care landing page
+moderate banned aoa twitter handles
+post a tweet and return a rendering of it and any replies
+hide the tweet with a given id only hides tweets that are not replies dcnl and do not have replies dcnl returns proper http status codes
+handle the reply save signal dcnl we award the army of awesome badge on 50 tweets
+the moderation queue
+update the status of a flagged object
+build and send the announcement emails to a group
+an ajax view to create a new announcement for the current locale
+an ajax view to delete an announcement
+sends the award notification email dcnl arg award the djangobadger award instance
+get or create a badge dcnl the badge template is a dict and must have a slug key all dcnl the values in the dict will be formatted with year if one dcnl is specified for example dcnl badge template slug format year year dcnl if a badge with the specified slug doesn t exist we create dcnl the badge with the specified slug and the rest of the items dcnl in the dict
+notifies award recipient that he she has an award
+get new visitor data from google analytics and save
+calculate new l10n coverage numbers and save dcnl l10n coverage is a measure of the amount of translations that are dcnl up to date weighted by the number of visits for each locale dcnl the algorithm see bug 727084 dcnl sumo visits total sumo visits for the last 30 days dcnl total translated 0 dcnl for each locale dcnl total up to date total up to date + dcnl number of up to date articles in the enus top 50 visited 50 dcnl visitors for that locale sumo visits dcnl an up to date article is any of the following dcnl an enus article by definition it is always up to date dcnl the latest enus revision has been translated dcnl there are only new revisions with typo significance not translated dcnl there is only one revision of medium significance not translated
+calculate and save contributor metrics
+calculate and save the support forum contributor counts dcnl an support forum contributor is a user that has replied 10 times dcnl in the past 30 days to questions that aren t his her own
+calculate and save the kb enus and l10n contributor counts dcnl a kb contributor is a user that has edited or reviewed a revision dcnl in the last 30 days
+calculate and save the aoa contributor counts dcnl an aoa contributor is a user that has replied in the last 30 days
+get new search ctr data from google analytics and save
+returns the date of the latest metric value
+get the top documents by visits
+exit survey handling dcnl collect new exit survey results dcnl save results to our metrics table dcnl add new emails collected to the exit survey
+collect and save new exit survey results
+add question askers to a surveygizmo campaign to get surveyed
+of the group users count how many made a contribution in date range
+get the email addresses collected between startdate and enddate
+add email to the exit survey campaign
+collect and aggregate the exit survey results for the date
+return the daily grouped queryset we need for model cls
+return the monthly grouped queryset we need for model cls
+the date from which we start querying monthly data
+remap the query result dcnl kwargs dcnl <label dcnl count 45 month 2l year 2010l dcnl count 6 month 2l year 2010l note duplicate date dcnl count 12 month 1l year 2010l dcnl count 1 month 12l year 2009l dcnl <label dcnl returns dcnl datetime date 2009 12 1 <label 1 dcnl datetime date 2010 1 1 <label 12 dcnl datetime date 2010 2 1 <label 51 note summed counts
+merge query results arrays into one array dcnl from dcnl date 20111001 votes 3 dcnl and dcnl date 20111001 helpful 7 dcnl to dcnl date 20111001 votes 3 helpful 7
+return a db cursor for reading
+parse a text date like 20040830 into a triple of numbers dcnl may fling valueerrors or typeerrors around if the input or date is invalid dcnl it should at least be a stringi mean come on
+check if the user has a permission on a specific object dcnl returns boolean
+check if the user has a permission or owns the object dcnl ownership is determined by comparing perm obj field name to the user in dcnl context
+given a user a permission an object obj and another object to check dcnl permissions against perm obj return true if the user has perm on dcnl obj
+return whether a user has a permission globally or on a given object
+return whether an object has an authority permission that references it dcnl if it doesn t we sometimes treat that permission as free to everyone dcnl since the auth backends we currently use have no concept of granting a dcnl permission to the world dcnl considers only approved permissions to exist
+helper function that returns a decorator dcnl redirect func if truthy a redirect will occur dcnl deny func if truthy httpresponseforbidden is returned dcnl redirect url func evaluated at view time returns the redirect url dcnl i e where to go if redirect func is truthy dcnl redirect field what field to set in the url defaults to django s dcnl set this to none to exclude it from the url
+requires that the user not be logged in
+requires that the user is logged in
+a replacement for django contrib auth decorators permission required dcnl that doesn t ask authenticated users to log in
+act like permission required or 403 but also grant permission to owners dcnl arguments dcnl perm authority permission to check e g forums forum edit forum dcnl owner attr attr of model object that references the owner dcnl obj lookup triple that specifies a lookup to the object on which dcnl ownership should be compared items in the tuple are dcnl model class or import path thereof dcnl kwarg name specifying field and comparator e g id exact dcnl name of kwarg containing the value to which to compare dcnl perm obj lookup triple that specifies a lookup to the object on which dcnl to check for permission elements of the tuple are as in dcnl obj lookup
+return the object indicated by the lookup triple and the kwargs passed dcnl to the view
+given an uploaded file a user and other data it creates an image
+uploads an image from the request
+checks the permissions for user on media image or video dcnl pass in media object image or video dcnl logged in user dcnl perm type delete change add dcnl raises permissiondenied if not allowed owner is always allowed
+save a media form add user to updated by dcnl warning this assumes you re calling it from a subclass of mediaform
+the media gallery dcnl filter can be set to images or videos
+finalizes an uploaded draft
+delete an existing draft for the user
+ajax endpoint to media gallery dcnl returns an html list representation of the media
+search the media gallery
+delete media and redirect to gallery view
+edit media means only changing the description for now
+the media page
+upload images or videos from request files
+returns an image or video along with media format for the image
+get video and image drafts for a given user
+initializes the media form with an image video instance and posted data dcnl form cls is a django modelform dcnl request method must be post for post data to be bound dcnl exclude fields contains the list of fields to default to their current dcnl value from the image video object
+send a welcome email to first time contributors dcnl anyone who has made a contribution more than 24 hours ago and has not dcnl already gotten a welcome email should get a welcome email
+get the top support forum contributors
+get the top kb editors locale enus
+get the top l10n contributors for the kb
+get the top army of awesome contributors
+apply the date and locale filters to the eu query
+community hub landing page
+find users by username and displayname dcnl uses the es user s index
+top contributors list view
+make sure the locale is enabled on sumo
+return a url to the group s avatar
+edit group avatar
+delete group avatar
+add a member to the group
+remove a member from the group
+add a leader to the group
+remove a leader from the group
+join the contributors group
+can the given user edit the given group profile
+can the given user add and remove leaders
+return the most recent post in the given set excluding the given post dcnl if there are none return none
+when a user s username is changed we must reindex the threads dcnl they participated in
+view all the forums
+view all the threads in a forum
+view all the posts in a thread
+reply to a thread
+start a new thread
+lock unlock a thread
+mark unmark a thread sticky
+edit a thread
+delete a thread
+move a thread
+edit a post
+delete a post
+watch unwatch a thread based on watch post param
+watch unwatch a forum based on watch post param
+ajax preview of posts
+return an interable of emailmessages to send when a new post is dcnl created
+return an interable of emailmessages to send when a new thread is dcnl created
+return true if user is watching the discussion for locale and dcnl false otherwise
+return the most recent post in the given set excluding the given post dcnl if there are none return none
+given a slug and a request get the document or 404
+view all the threads in a discussion forum
+view all the posts in a thread
+ratelimiting helper for kbforum threads and replies dcnl they are ratelimited together with the same key
+reply to a thread
+start a new thread
+lock unlock a thread
+mark unmark a thread sticky
+edit a thread
+delete a thread
+edit a post
+delete a post
+watch unwatch a thread based on watch post param
+watch unwatch a locale
+watch unwatch a document based on watch post param
+ajax preview of posts
+the product picker page
+the product landing page
+the document listing page for a product + topic
+build a query that matches objects with a content type that matches an action
+hit a simple push endpoint to send a notification to a user dcnl handles and record any http errors may retry up to max retries dcnl times by recursing dcnl this function tries hard to handle any potential errors so it may dcnl be used in a loop that iterates over many actions to send without dcnl the loop needing to contain error handling logic dcnl param endpoint the url to put to dcnl param version the version to include in the push should be an integer dcnl greater than the version used every other time this endpoint has dcnl been called timestamps and db auto increment fields work well dcnl param max retries the maximum number of times to try again
+call every notification handler for a notification
+send simple push notifications to users that have opted in to them dcnl this will be called as a part of a celery task
+when an action is created notify every user following something in the action
+register a function to be called via celery for every notification dcnl this may be used as a decorator or as a simple function
+send notification of a new private message
+send a private message dcnl arg to a list of users to send the message to dcnl arg sender the user who is sending the message dcnl arg text the message text
+returns the number of unread messages for the specified user
+adds the unread private messages count to the context dcnl returns 0 for anonymous users dcnl returns 0 if waffle flag is off
+send a new private message
+apply action to selected messages
+ajax preview of posts
+print timeline block
+make a compatible version of pip importable raise a runtimeerror if we dcnl couldn t
+return a short 7bitsafe representation of a hash dcnl if you pass a sha256 this results in the hash algorithm that the wheel dcnl format pep 427 uses except here it s intended to be run across the dcnl downloaded archive before unpacking
+return the path and line number of the file from which an dcnl installrequirement came
+yield hashes from contiguous comment lines before line line number
+delegate to pip the given args starting with the subcommand and raise dcnl pipexception if something goes wrong
+return the hash of a downloaded file
+return whether this is probably a git sha
+return an iterable of filtered arguments dcnl arg argv arguments starting after the subcommand dcnl arg want paths if true the returned iterable includes the paths to any dcnl requirements files following a r or requirement option dcnl arg want other if true the returned iterable includes the args that are dcnl not a requirementfile path or a r or requirement flag
+return the peep hash of one or more files returning a shell status code dcnl or raising a pipexception dcnl arg argv the commandline args starting after the subcommand
+memoize a method that should return the same result every time on a dcnl given instance
+return a packagefinder respecting commandline options dcnl arg argv everything after the subcommand
+return a map of key list of things
+execute something before the first item of iter something else for each dcnl item and a third thing after the last dcnl if there are no items in the iterable don t execute anything
+return a list of downloadedreqs representing the requirements parsed dcnl out of a given requirements file dcnl arg path the path to the requirements file dcnl arg argv the commandline args starting after the subcommand
+perform the peep install subcommand returning a shell status code dcnl or raising a pipexception dcnl arg argv the commandline args starting after the subcommand
+convert a peep requirements file to one compatble with pip8 hashing dcnl loses comments and tromps on urls so the result will need a little manual dcnl massaging but the hard partthe hash conversionis done for you
+be the toplevel entrypoint return a shell status code
+do typical sumo update
+of the group users count how many made a contribution in date range
+this function provides functionality for the ifhasperm template tag dcnl syntax dcnl ifhasperm permission label check name user objs dcnl lalala dcnl else dcnl meh dcnl endifhasperm dcnl ifhasperm poll permission change poll request user dcnl lalala dcnl else dcnl meh dcnl endifhasperm
+renders an add permissions form for the given object if no object dcnl is given it will render a select box to choose from dcnl syntax dcnl permission form for obj using permission label check name with template dcnl permission form for lesson using lesson permission add lesson
+renders an add permissions form for the given object if no object dcnl is given it will render a select box to choose from dcnl syntax dcnl permission request form for obj and permission label check name with template dcnl permission request form for lesson using lesson permission add lesson dcnl with authority permission request form html
+retrieves all permissions associated with the given obj and user dcnl and assigns the result to a context variable dcnl syntax dcnl get permissions obj dcnl for perm in permissions dcnl perm dcnl endfor dcnl get permissions obj as my permissions dcnl get permissions obj for request user as my permissions
+retrieves all permissions requests associated with the given obj and user dcnl and assigns the result to a context variable dcnl syntax dcnl get permission requests obj dcnl for perm in permissions dcnl perm dcnl endfor dcnl get permission requests obj as my permissions dcnl get permission requests obj for request user as my permissions
+performs a permission check with the given signature user and objects dcnl and assigns the result to a context variable dcnl syntax dcnl get permission permission label check name for user and objs as varname dcnl get permission poll permission change poll dcnl for request user and poll as is allowed dcnl get permission poll permission change poll dcnl for request user and poll second poll as is allowed dcnl if is allowed dcnl i ve got ze power to change ze pollllllzzz muahahaa dcnl else dcnl meh no power for meeeee dcnl endif
+performs a permission request check with the given signature user and objects dcnl and assigns the result to a context variable dcnl syntax dcnl get permission request permission label check name for user and objs as varname dcnl get permission request poll permission change poll dcnl for request user and poll as asked for permissio dcnl get permission request poll permission change poll dcnl for request user and poll second poll as asked for permissio dcnl if asked for permissio dcnl dude you already asked for permission dcnl else dcnl oh please fill out this 20 page form and sign here dcnl endif
+renders a html link to the delete view of the given permission returns dcnl no content if the requestuser has no permission to delete foreign dcnl permissions
+renders a html link to the delete view of the given permission request dcnl returns no content if the requestuser has no permission to delete foreign dcnl permissions
+renders a html link to the approve view of the given permission request dcnl returns no content if the requestuser has no permission to delete foreign dcnl permissions
+goes and imports the permissions submodule of every app in installed apps dcnl to make sure the permission set classes are registered correctly
+decorator for views that checks whether a user has a particular permission dcnl enabled redirecting to the login page if necessary
+decorator that wraps the permission required decorator and returns a dcnl permission denied 403 page instead of redirecting to the login url
+default 403 handler dcnl templates 403 html dcnl context dcnl request path dcnl the path of the requested url e g app pages bad page
+fetch and store a webpay product icon dcnl parameters dcnl url dcnl absolute url of icon dcnl ext size dcnl the height width size that the developer claims it to be dcnl size dcnl the height width webpay wants us to resize it to dcnl the icon will be resized if its ext size is larger than size dcnl see webpay for details on how this is used for inapp payments
+generates a webpay solitude external id given an addon s primary key
+prepare a jwt describing the item about to be purchased when dcnl working with navigator mozpay dcnl see the mdn docs for details on the jwt fields dcnl https developer mozilla org enus marketplace monetization dcnl inapp payments section mozpay iap
+returns a signed jwt to use for signature checking dcnl this is for nagios checks to ensure that marketplace s dcnl signed tokens are valid when processed by webpay
+task intended to run via command line to update all apps supported locales dcnl based on the current version
+clean out apps signed for reviewers
+calculate popularity of app for all regions and per region dcnl returns value in the format of dcnl all <global installs dcnl <region slug <regional installs
+update app install counts for all published apps dcnl we break these into chunks so we can bulk index them each chunk will dcnl process the apps in it and reindex them in bulk after all the chunks are dcnl processed we find records that haven t been updated and purge reindex those dcnl so we nullify their values
+calculate trending for app for all regions and per region dcnl a installs from 8 days ago to 1 day ago dcnl b installs from 29 days ago to 9 days ago averaged per week dcnl trending a b b if a 100 and b 1 else 0 dcnl returns value in the format of dcnl all <global trending score dcnl <region slug <regional trending score
+update trending for all published apps dcnl we break these into chunks so we can bulk index them each chunk will dcnl process the apps in it and reindex them in bulk after all the chunks are dcnl processed we find records that haven t been updated and purge reindex those dcnl so we nullify their values
+sets up tasks to do user install dumps
+sitewide garbage collections
+returns a list of locales found in the locales property of the manifest dcnl this will convert locales found in the shorter languages setting to their dcnl full locale it will also remove locales not found in amo languages dcnl note the default locale is not included
+body id rating id to translated rating label
+dehydrate an object of content ratings from rating ids to dict
+create a mini manifest for a packaged app or langpack and cache it call dcnl with force true to bypass existing cache dcnl note that platform expects name developer locales to match the data from dcnl the real manifest in the package so it needs to be read from the zip file dcnl returns a tuple with the minifest contents and the corresponding etag
+cleans a model instance slug dcnl this strives to be as generic as possible as it s used by webapps dcnl and maybe less in the future d
+put all translations into a translations dict
+the try except attributeerror allows this to be used where the input is dcnl ambiguous and could be either an alreadyreversed url or a version object
+set nomination date when app is pending review
+pregenerate an android apk for a public app
+return ids of webapp objects excluded from a particular region or excluded dcnl due to geodata flags
+if the addon is premium require a purchase dcnl must be called after addon view decorator
+check that the addon can become premium
+don t evaluate qs or the locale will get stuck on whatever the server dcnl starts with the app view decorator will call qs with no arguments before dcnl doing anything so lambdas are ok dcnl good webapp objects valid dcnl good lambda webapp objects valid filter dcnl bad webapp objects valid
+the try except attributeerror allows this to be used where the input is dcnl ambiguous and could be either an alreadyreversed url or a version object
+returns a user object this user is suitable for assigning to dcnl cron jobs or long running tasks
+create an user if he doesn t exist already assign him to a group and dcnl create a token for him dcnl if overwrite true then existing oauth credentials for this user will be dcnl deleted if any dcnl if oauth credentials are not specified random key and secret will be dcnl generated
+query for a user matching a given email
+verify a browserid login attempt if the browserid assertion is dcnl good but no account exists create one
+a preconfigured wrapper around the app validator
+resizes addon websites icons
+resizes webapp website promo imgs
+optimizes a png image by running it through pngcrush returns hash dcnl src filesystem image path dcnl hash field field name to save the new hash on instance if passing dcnl instance through set modified on
+resizes preview images and stores the sizes on the preview
+saves the icon for obj to its final destination obj can be an app or a dcnl website
+saves the promo image for obj to its final destination dcnl obj can be an app or a website
+downloads a webapp icon from the location specified in the manifest dcnl returns false if icon was not able to be retrieved dcnl if file pk is not provided it will use the file from the app s dcnl current version
+return a validation object that looks like the addon validator
+email app developers notifying them of new regions added
+update blocked regions based on a list of regions to exclude
+flag app for rereview if it receives an adult content rating
+convert a resource uri to the primary key of the resource
+escalate the app if it uses prerelease permissions
+restore an incomplete app to its former status the app will be marked dcnl as its previous status or pending if it was never reviewed
+image should be shrunk so that the longest side is 32px
+image stays the same since the new size is bigger than both sides
+image stays the same since the new size is the same
+resize multiple images at once
+resize promo image
+a function that mocks storage open and throws an ioerror if you try to dcnl open a 128x128px icon
+return a uuid for use in the payment flow in debugging it prefixes dcnl the value of the uuid so its easier to spot in logs and such
+use this decorator on provider methods to ensure that the account dcnl being passed into the method belongs to that provider
+get a provider implementation instance by name or id
+wrapper for developer page titles
+wrapper function for breadcrumbs prepends developers breadcrumb dcnl items dcnl list of url label to be inserted after addon dcnl addon dcnl adds the addon name to the end of the trail if items are dcnl specified then the addon will be linked dcnl add default dcnl prepends trail back to home when true default is false
+requires user to be addon owner or admin dcnl when allow editors is true an editor can view the page dcnl when staff is true users in the staff or support staff groups are dcnl allowed users in the developers group are allowed readonly
+set up the queryset and filtering for addon listing for dashboard
+ratings can be created via iarc pinging our api dcnl thus we can t display a success message via the standard post req res dcnl to workaround we stored app s rating s modified from edit page dcnl when hitting back to the ratings summary page calc what msg to show dcnl old status app status during ratings edit page dcnl old modified rating modified datetime during ratings edit page
+wrapper function for upload manifest so we can keep the dcnl standalone validator separate from the manifest upload stuff
+safe wrapper around json dict containing a validation result
+blocklists the app by creating a new version file
+handle search filters and queries for transactions
+same as the rest framework reverse except does not get the base url
+custom exception handler for drf which doesn t provide one for http dcnl responses like tastypie does
+returns an include statement containing url patterns for the passed api dcnl version adds a namespace if that version does not match dcnl settings api current version to ensure that reversed urls always use the dcnl current version
+a resource that is designed to be exposed externally and contains dcnl settings or waffle flags that might be relevant to the client app
+twolegged oauth authorization isn t standard and so not dcnl supported by current versions of oauthlib the implementation dcnl here is sufficient for simple developer tools and testing real dcnl usage of oauth will always require directing the user to the dcnl authorization page so that a resourceowner token can be dcnl generated
+get a hash identifying an user dcnl it s a hash of session key ip and user agent
+create a new record in the database with the given values dcnl param key dcnl the type of stats you re sending e g app install dcnl param request dcnl the request associated with this call it will be used to define who dcnl the user is dcnl para data dcnl the data you want to store you can pass the data to this function as dcnl named arguments
+helper function for building fireplace urls path is the url route dcnl and name if specified is the name given to the route
+serves the frontend singlepage apps
+a page to mimic commonplace s fxaauthorize page to handle login
+if we are hitting the fireplace detail page get the app for open graph dcnl tags
+will remove all validation results used when the validator is dcnl upgraded and results may no longer be relevant
+get the actual file path of fileorpath if it s a fileupload object
+get a filelike object whether given a fileupload object or an dcnl uploadedfile
+extracts the zip file
+copies from the source to the destination removing the destination dcnl if it exists and is a directory
+pkg is a filepath or a django core files uploadedfile dcnl or files models fileupload
+returns an md5 hash for a filename
+on delete of the file object from the database unlink the file from dcnl the file system
+uses nfd to normalize unicode strings
+this is to serve files off of st a m o not standard a m o for this we dcnl use token based authentication
+adds a feature profile on the request object if one is present and the dcnl dev parameter is either firefoxos or android dcnl does nothing if one was already set
+updates the prices and price currency objects based on the tiers dcnl tiers should be a list containing a dictionary of currency value pairs dcnl the value of us is required so that we can look up the price tier if the dcnl price tier for us isn t found we skip whole tier if the currency isn t dcnl found but the tier is we create the currency dcnl this is intended to be called via a migration or other command
+returns a list of the default providers from the settings as the dcnl appropriate constants
+ensure that when pricecurrencies are updated all the apps that use them dcnl are reindexed into es so that the region information will be correct
+when the contribution table is updated with the data from paypal dcnl update the addon purchase table will figure out if we need to add to or dcnl delete from the addonpurchase table
+sends an email to the purchaser of the app
+return json dict of status complete|incomplete dcnl the status of the payment is only complete when it exists by uuid dcnl was purchased by the logged in user and has been marked paid by the dcnl jwt postback after that the ui is free to call app purchase record dcnl to generate a receipt
+verify signature and set contribution to paid
+verify signature from and create a refund contribution tied dcnl to the original transaction
+check that the webapp can become premium
+check if it can be purchased returns false if not premium dcnl must be called after the app view decorator
+if the addon is premium require a purchase dcnl must be called after app view decorator
+handles empty and invalid values for sort and sort order dcnl created by ascending is the default ordering
+handles empty and invalid values for sort and sort order dcnl created by ascending is the default ordering
+generate table header sort links dcnl pretty name name displayed on table header dcnl sort field name of the sort type get parameter for the column dcnl get params additional get params to include in the sort link dcnl sort the current sort type dcnl order the current sort order
+wrapper function for breadcrumbs prepends editor tools dcnl breadcrumbs dcnl queue dcnl explicit queue type to set dcnl items dcnl list of url label to be inserted after addon
+returns tuple of tab navigation for the queue pages dcnl each tuple contains three elements url tab code tab text
+returns tuple of tab navigation for the log pages dcnl each tuple contains three elements named url tab code tab text
+get table header sort links dcnl pretty name name displayed on table header dcnl sort field name of get parameter referenced to in views
+returns the rolling average from the past 30 days of the time taken for a dcnl pending app to become public
+returns a datetime given an elasticsearch date datetime field
+requires the user to be logged in as a reviewer or admin or allows dcnl someone with rule reviewertools view for get requests dcnl reviewer is someone who is in one of the groups with the following dcnl permissions dcnl apps review dcnl moderator true extends this to users in groups who have the permssion dcnl apps moderatereview
+redirect to apps home page if app reviewer
+returns unreviewed apps progress dcnl return the number of apps still unreviewed for a given period of time and dcnl the percentage
+queue for reviewing app reviews
+queue for reviewing abuse reports for apps
+queue for reviewing abuse reports for websites
+queue a translation that needs to be saved for a particular object to dcnl generate the key call make key
+removes all translations in the queue
+returns a key for this object
+for a given key save all the translations the key is used to ensure that dcnl we only save the translations for the given object and not all of them dcnl once saved they will be deleted
+return as many characters as possible without going over the limit dcnl return the truncated text and the characters left before the limit if any
+truncate the text of an html5lib tree
+find the length of the text content excluding markup
+return a slice of html < length chars dcnl killwords and end are currently ignored dcnl only use for knownsafe html
+for forms compares initial data against cleaned data for transfields dcnl returns true if data is the same returns false if data is different dcnl arguments dcnl field name of the form field asis dcnl initial data in the form of description enus x dcnl description enbr y dcnl data cleaned data in the form of description init dcnl enus x dcnl enbr y
+like django s to language but en us or enus comes out as enus
+pass in a language u enus get back a locale object courtesy of dcnl babel use this to figure out currencies bidi names etc
+activate the settings lang or lang provided while in context
+return a locale we support or none
+this will clean up newlines so that nl2br can properly be called on the dcnl cleaned text
+switch between translation and purified linkified translations
+connect signals so the translation gets saved during obj save
+use this signal on a model to iterate through all the translations added dcnl to the hold queue and save them all hook this up to the pre save signal dcnl on the model
+test html attributes for languages different than the site language
+test for nastinessremoval in the transfield s locale
+locale html must still work if field is none
+truncating should not introduce xss issues
+put all translations into a translations dict
+order the queryset by the translated field honoring the current and dcnl fallback locales returns a new queryset dcnl the model being sorted needs a get fallback classmethod that describes dcnl the fallback locale get fallback can return a string or a field
+html attributes for languages different than the site language
+wrapper for jinja s truncate that checks if the object has a dcnl truncate attribute first dcnl altering the jinja2 default of killwords false because of dcnl https bugzilla mozilla org show bug cgi id 624642 which could occur dcnl elsewhere
+generates the locale menu for zamboni l10n
+get obj s default locale
+blocked tags are not allowed dcnl restricted tags can only be edited by reviewers and curators
+fetch tags from objs in one query and then attach them to a property on dcnl each instance dcnl assumes every instance in objs uses the same model
+admin or someone with admintools view required dcnl if reviewers true revieweradmintools view is allowed also
+takes a bunch of addon user pairs and sets the denormalized fields for dcnl all reviews matching that pair
+does email for yesterday s ratings right after the day has passed dcnl sends an email containing all reviews for that day for certain app
+return whether or not the request user can delete reviews dcnl people who can delete reviews dcnl the original review author dcnl reviewers but only if they aren t listed as an author of the addon dcnl users in a group with users edit privileges dcnl users in a group with apps moderatereview privileges
+returns the name of the current carrier or none for the dcnl request lifecycle dcnl example telefonica
+returns the carrier id for the request lifecycle
+sets the name of the carrier for the current request lifecycle
+returns a region class definition given a slug id or class definition
+remove accents from input
+get the region for the current request lifecycle
+set the region for the current request lifecycle
+returns popularity value for the given obj to use in elasticsearch dcnl if no region uses global value dcnl if region and region is not mature uses global value dcnl otherwise uses regional popularity value
+returns trending value for the given obj to use in elasticsearch dcnl if no region uses global value dcnl if region and region is not mature uses global value dcnl otherwise uses regional popularity value
+returns the boost used in elasticsearch for this app dcnl the boost is based on a few factors the most important is number of dcnl installs we use log10 so the boost doesn t completely overshadow any dcnl other boosting we do at query time
+returns a datetime given an elasticsearch date datetime field
+given a list of ids and an indexer index into es dcnl if an reindexation is currently occurring index on both the old and new
+return a dict of monolith based statistics queries dcnl the dict is of the form dcnl <metric name count <callable dimensions <dimensions dcnl where dimensions is an optional dict of dimensions we expect to filter on dcnl via monolith dcnl if a date is specified and applies to the job it will be used otherwise dcnl the date will default to today
+update monolith statistics
+migrate deprecated background color hex to color name
+generate random string
+downloads a website icon from the location passed to the task dcnl returns false if icon was not able to be retrieved
+downloads a promo image from the location passed to the task dcnl returns false if promo image was not able to be retrieved
+generate random string for websites
+regions that have ratings bodies
+regions without ratings bodies and fallback to the generic rating body
+return a map of region slugs to ratings body labels for use in dcnl serializers and to send to fireplace dcnl e g us esrb mx esrb es pegi br classind
+get the region list and sort by name dcnl requires a function due to localisation
+get the region choices and sort by name dcnl requires a function due to localisation
+maps activitylog action ids to commbadge note types
+list of all ratings with waffled bodies
+create a list of tuples choices after we know the locale since this dcnl attempts to concatenate two lazy translations in constants file
+converts ratings body s or rating s iarc name to a sluglike label dcnl e g usk to usk
+returns a rating with translated fields attached and with fields that are dcnl easily created dynamically
+returns a rating body with translated fields attached
+prepends root icon path to path
+take an extension pk and extract 128x128 icon from its zip file build dcnl resized png copies of it at the dimensions we use optimize those and store dcnl them in our public storage dcnl when done icon hash property should be set on the extension
+reset the locale field for all translations on existing extensions this dcnl is done to fix bug 1215094 some translations were created with the wrong dcnl language the one from the request instead of the one from the dcnl default language field
+update extension status as well as fields for which the manifest is the dcnl source of truth when an extensionversion is made public or was public and dcnl is deleted
+download the signed archive for a given public extension version
+download an archive for a given extension version signed onthefly dcnl with reviewers certificate dcnl only reviewers can access this
+download the unsigned archive for a given extension version dcnl only reviewers and developers can do this
+delete a tuple from a list of tuples based on its first item
+passed a string returns a twotuple indicating the language of that dcnl string and the confidence on a 01 0 scale dcnl if the confidence is below 0 7 or below 0 9 in a string of 3 words or dcnl less will return none
+passed a string will return a dict mapping language string suitable to dcnl be assigned to the value of a translatedfield if the language can not be dcnl determined with confidence will assume english
+wraps the function with a decorator that bounces to the right step
+decorator that checks if the user has read the dev agreement redirecting dcnl if not
+determine which step to redirect user to
+this is a fake terms view that we overlay the login dcnl we link here from the developer hub landing page
+generate the file names in a stored directory tree by walking the tree dcnl topdown dcnl for each directory in the tree rooted at the directory top including top dcnl itself it yields a 3tuple dirpath dirnames filenames dcnl this is intended for use with an implementation of the django storage api dcnl you can specify something other than the private storage instance with dcnl the storage keyword argument
+copy a path src path from a storage src storage to a path dst path dcnl on a different storage dst storage dcnl defaults to copying from and to private storage
+move a path src path from a storage src storage to a path dst path dcnl on a different storage dst storage by copying and then deleting the dcnl source dcnl defaults to moving from and to private storage
+e g mkt log mkt log create addon dcnl mkt log mkt log add file to version file version
+sets modified on one object at a time
+a wrapper around django core mail emailmessage dcnl adds blocked emails checking and error logging
+sends mail using a jinja template with autoescaping turned off dcnl jinja is especially useful for sending email since it has whitespace dcnl control
+sends html mail using a jinja template with autoescaping turned off
+try to import helpers py from each app in installed apps
+date time converted to seconds since epoch
+given a sequence we sort it and group it by a key dcnl key should be a string used with attrgetter or a function
+get a paginator abstracting some common paging actions dcnl if you pass count that value will be used instead of calling dcnl count on the queryset this can be good if the queryset would dcnl produce an expensive count query
+yield successive nsized chunks from seq dcnl for group in chunked range 8 3 dcnl print group dcnl 0 1 2 dcnl 3 4 5 dcnl 6 7
+a unicodesafe urlencoder
+raise an error if the string has any punctuation characters dcnl regexes don t work here because they won t check alnums in the right dcnl locale
+resizes and image from src to dst returns width and height
+returns a key with namespace value appended if increment is true the dcnl namespace will be incremented effectively invalidating the cache dcnl memcache doesn t have namespaces but we can simulate them by storing a dcnl key s namespace value invalidating the namespace simply requires dcnl editing that key your application will no longer request the old keys dcnl and they will eventually fall off the end of the lru and be reclaimed
+returns a string you can pass to path path safely
+simply wraps the cef log function so we don t need to pass in the config dcnl dictionary every time see bug 707060 env can be either a request dcnl object or just the request meta dictionary
+escape html in json value including nested items
+strip the bom byte order mark from byte string data dcnl returns a new byte string
+guess the encoding of a string and decode it
+remove a local temp directory dcnl this is just a wrapper around shutil rmtree use it to indicate you are dcnl certain that your executing code is operating on a local temp dir not a dcnl directory managed by the django storage api
+returns indexyyyymmddhhmmss with the current time
+returns a datetime dcnl if created is now it returns datetime datetime now if created dcnl is set use that otherwise generate a random datetime in the year 2011
+create an app dcnl complete fills out app details + creates content ratings dcnl rated creates content ratings
+returns either the icon url for a given obj size base url format dcnl is a string that will be used for url formatting if we are not using a dcnl remote storage see addon icon url for an example dcnl if no icon type if set on the obj then the url for the dcnl appropriate default icon for the given size will be returned dcnl obj needs to implement icon type and icon hash properties for this dcnl function to work dcnl note does not check size so it can return 404 urls if you specify an dcnl invalid size
+returns either the promo img url for a given obj size dcnl base url format is a string that will be used for url formatting see dcnl webapp promo img url for an example dcnl if no promo img type if set on the obj then the url for the dcnl appropriate default icon for the given size will be returned dcnl obj needs to implement promo img hash properties for this function to dcnl work
+build up a formsethappy post dcnl args is a sequence of forms going into the formset dcnl prefix and initial count can be set in kw
+gather initial data from the form into a dict
+useful for comparing an expected list of links against pyquery dcnl elements expected format of links is a list of tuples like so dcnl home dcnl extensions reverse browse extensions dcnl if you d like to check if a particular item in the list is selected dcnl pass as selected the title of the link dcnl links are verified by default
+assert that the validation json does not contain a traceback dcnl note that this does not test whether the addon passed dcnl validation or not
+returns a datetime dcnl if created is now it returns datetime datetime now if created dcnl is set use that otherwise generate a random datetime in the year 2011
+creates a request factory logged in with the user
+if not provided email will be factoryuser<number mozilla com dcnl if email has no it will be corrected to email mozilla com
+we load gettext catalogs in this order dcnl django locale django po dcnl locale django po dcnl if django doesn t have a locale it returns the enus catalog as a dcnl fallback but then we take that catalog and merge in our messages po dcnl that s no good because we just mixed some other locale into enus dcnl this test will be invalid once django gets an mn locale
+given a specific set of primary keys assure that we return addons dcnl in that order
+we want none to show up as we do this in jinja config
+turns a python object into a response
+normal responses get passed through
+json view error returns 400 responses
+within this context all queries go to the master
+given a query set and a list of primary keys return a set of objects from dcnl the query set in that exact order
+store global marketplacewide info used in the header
+wrapper function for breadcrumbs dcnl items dcnl list of url label to be inserted after addon dcnl product dcnl adds the app addon name to the end of the trail if items are dcnl specified then the app addon will be linked dcnl add default dcnl prepends trail back to home when true default is true
+gets the path to a localizable document in the current language with dcnl fallback to enus
+takes a url and prepends the site url
+helper for django s reverse in templates
+get a media url link with a cache buster querystring
+get a static url link with a cache buster querystring
+this overrides jingo helpers f to convert input to unicode if needed dcnl this is needed because of dcnl https github com jbalogh jingo pull 54 issuecomment36728948
+strips control characters from a string
+date time format according to iso 8601
+like django s login required but with to instead of next dcnl if redirect false then we return 401 instead of redirecting to the dcnl login page that s nice for ajax views
+pairs of app action if any permission passes call the function dcnl otherwise raise 403
+return a response as json if you are just wrapping a view dcnl then use the json view decorator
+will update the modified timestamp on the provided objects when the wrapped dcnl function exits sucessfully returns a truthy value if the function dcnl returns a dict it will also use that dict as additional keyword arguments dcnl to update on the provided objects dcnl looks up objects defined in the set modified on kwarg
+allow other sites to access this resource see dcnl https developer mozilla org en http access control
+sets the user to be the task user then unsets it
+serve mini manifest minifest for yulelog s packaged zip
+serve mini manifest minifest for yogafire s packaged zip
+generate a robots txt
+accept csp reports and log them
+turn the query string into a unicode and asciisafe string dcnl we need unicode so it can be combined with a reversed url but it has to be dcnl ascii to go in a location header iri to uri seems like a good compromise
+get transaction details from solitude api
+shows the app activity age for single app
+shows the purchase page for another user
+shows the user activity page for another user
+get a list of dicts describing the payment portals for this app or user dcnl either app or user is required
+update supported locales for an individual app set latest true to use the dcnl latest current version instead of the most recent public version
+inherit nomination date for new packaged app versions
+on delete of the version object call the file delete and signals
+parse emails and save notes
+creates a note on an obj version s thread dcnl creates a thread if a thread doesn t already exist dcnl cc s app s mozilla contacts to autojoin thread dcnl obj app or extension dcnl version obj version dcnl author userprofile for the note s author dcnl body string text for note comment dcnl note type integer for note type mkt constant defaults to 0 no action dcnl e g comm approval comm rejection comm no action dcnl perms object of groups to grant permission to will set flags on thread dcnl e g developer false staff true dcnl attachments formset of attachment files
+stuff to do after creating note also used in comm api s post save
+create attachments from commattachmentformset onto note
+saves an attachment and returns the filename
+check acls
+crossreference acls and note thread permissions
+it s named app for historical reasons but it obj can be either a dcnl webapp or extension dcnl check if user has any applevel acls dcnl mozilla contact admin review senior reviewer developer
+check if the user has read write permissions on the given thread dcnl developers of the addon used in the thread users in the cc list dcnl and users who post to the thread are allowed to access the object dcnl moreover other object permissions are also checked against the acls dcnl of the user
+check if the user has read write permissions on the given note dcnl developers of the addon used in the note users in the cc list dcnl and users who post to the thread are allowed to access the object dcnl moreover other object permissions are also checked against the acls dcnl of the user
+email utility used globally by the communication dashboard to send emails dcnl given a note its actions and permissions recipients are determined and dcnl emails are sent to appropriate people
+determine email recipients mainly based on communicationthreadcc dcnl returns user id user email tuples
+user id user email user email token
+given a list of tuple of user id user email email bunch of people dcnl note commbadge note the note type determines which email to use dcnl template override which template we use
+get context data for comm emails specifically for review action emails
+returns the mini manifest for a langpack
+returns a users uuid suitable for use in the receipt by looking up dcnl the purchase table otherwise it just returns none dcnl params app the app record dcnl params user the userprofile record
+returns a signed receipt if the seperate signing server is present then dcnl it will use that otherwise just uses jwt dcnl params receipt the receipt to be signed
+creates receipt data for use in payments dcnl params app the app record dcnl params user the userprofile record dcnl params uuid a uuid placed in the user field for this purchase dcnl params flavour none developer inapp or reviewer the flavour dcnl of receipt dcnl param contrib the contribution object for the purchase
+creates a receipt for an inapp purchase dcnl params contrib the contribution object for the purchase
+reissues and existing receipt by updating the timestamps and resigning dcnl the receipt this requires a well formatted receipt but does not verify dcnl the receipt contents dcnl params receipt an existing receipt
+return a key for using with encode
+reissues an existing receipt provided from the client will only do dcnl so if the receipt is a full receipt and expired
+this will match rules found in group
+determines if the request user has permission to do a certain action dcnl admin is true if the user has any of dcnl admin admin s whatever as rules
+similar to action allowed but takes user instead of request
+a convenience function check if request user has permissions dcnl for the object
+check request user s permissions for the addon dcnl if user is an admin they can do anything dcnl if the app is disabled only admins have permission dcnl if they re an app owner they can do anything dcnl dev true checks that the user has an owner or developer role dcnl viewer true checks that the user has an owner developer or viewer role dcnl support true checks that the user has a support role
+developer hub landing page
+landing page for support
+landing page for partners
+landing page for installation
+publish marketplace badges
+returns the mini manifest for packaged apps dcnl if not a packaged app returns a 404
+a hack way to find the local ip without using any python libraries
+this sets up everything needed before indexing dcnl flags the database dcnl creates the new index
+perform postindexing tasks dcnl optimize which also does a refresh and a flush by default dcnl update settings to reset number of replicas dcnl point the alias to this new index dcnl unflag the database dcnl remove the old index dcnl output the current alias configuration
+index the objects dcnl index name of the index dcnl note ignore result false is required for the chord to work and trigger dcnl the callback
+chunk the items to index
+validate that the modules that have been set up correctly
+validate that if not in debug mode key settings have been changed
+return the relevant url from settings rather than rely on dcnl a complicated layer of settings to do their work this just does dcnl it at runtime this allows media url and static url to be dcnl changed in a local settings file without having to override all the dcnl urls dcnl if the url starts with https or http then no changes are made
+after settings including debug has loaded see if we need to update csp
+you have to explicitly call this to configure logging
+records the given action by sending it to the metrics servers dcnl currently this is storing the data internally in the monolith temporary dcnl table dcnl param action the action related to this request dcnl param request the request that triggered this call dcnl param data some optional additional data about this call
+try and resize a video and cope if it fails
+an error occurred in processing the video deal with that approp
+given a preview object and a file somewhere encode into the full dcnl preview size and generate a thumbnail
+find a suitable lib
+return a true random ascii string containing byte length of randomness dcnl the resulting key is suitable for cryptogrpahy dcnl the key will be hex encoded which means it will be twice as long dcnl as byte length i e 40 random bytes yields an 80 byte string dcnl byte length must be at least 32
+send the receipt to the signing service dcnl this could possibly be made async via celery
+decode and verify that the receipt is sound from a crypto point of view dcnl will raise errors if the receipt is not valid returns receipt contents dcnl if it is valid
+crack open the receipt without checking that the crypto is valid dcnl returns a list of all the elements of a receipt which by default is dcnl cert receipt
+this is a mock for using in tests where we really don t want to be dcnl actually signing the apps this just copies the file over and returns dcnl the path it doesn t have much error checking
+sign a packaged app dcnl if local is true we never copy the signed package to remote storage
+generate a manifest and signature and send signature to signing server to dcnl be signed
+returns the proper api endpoint depending whether we are signing for dcnl reviewer or for public consumption
+return true if any of the files have changed
+run command if any file in files changes
+you have to call this to explicity configure logging
+cracks the receipt using the private key this will probably change dcnl to using the cert at some point especially when we get the hsm
+enus dashboards macros returns the active macros list
+enus dashboards macros links to the english search results
+enus dashboards macros links to complete search results
+manual search form can search all english pages
+manual search form can search all pages
+function for producing a config dict for the redirect test dcnl you can use simple bash style brace expansion in the url and location dcnl values if you need the location to change with the url changes you must dcnl use the same number of expansions or the location will be treated as nonexpandable dcnl if you use brace expansion this function will return a list of dicts instead of a dict dcnl you must use the flatten function provided to prepare your test fixture if you do this dcnl if you combine brace expansion with a compiled regular expression pattern you must dcnl escape any backslashes as this is the escape character for brace expansion dcnl example dcnl url test about drivers html https wiki mozilla org firefox drivers dcnl url test projects index de fr hr sq html de fr hr sq firefox products dcnl url test firefox notes re compile r firefox d + releasenotes dcnl url test firefox android beta notes re compile r firefox android d + beta releasenotes dcnl param url the url in question absolute or relative dcnl param location if a redirect either the expected value or a compiled regular expression to match the location header dcnl param status code expected status code from the request dcnl param req headers extra headers to send with the request dcnl param req kwargs extra arguments to pass to requests get dcnl param resp headers dict of headers expected in the response dcnl param query dict of expected query params in location url dcnl param follow redirects boolean indicating whether redirects should be followed dcnl param final status code expected status code after following any redirects dcnl return dict or list of dicts
+define a test of a url s response dcnl param url the url in question absolute or relative dcnl param location if a redirect either the expected value or a compiled regular expression to match the location header dcnl param status code expected status code from the request dcnl param req headers extra headers to send with the request dcnl param req kwargs extra arguments to pass to requests get dcnl param resp headers dict of headers expected in the response dcnl param base url base url for the site to test dcnl param query dict of expected query params in location url dcnl param follow redirects boolean indicating whether redirects should be followed dcnl param final status code expected status code after following any redirects
+take a list of dicts which may itself contain some lists of dicts and dcnl return a generator that will return just the dicts in sequence dcnl example dcnl list flatten dude jeff walter walter donny dead dcnl dude jeff walter walter donny dead
+returns whether the user is allowed to upload attachments dcnl this is determined by a negative permission disallow add attachment dcnl when the user has this permission upload is disallowed unless it s dcnl a superuser or staff
+given a timezone naive or aware datetime return the http date dcnl formatted string to be used in http response headers
+generate a path to store a file attachment
+create a fake file for testing purposes
+serve up an attachment s file
+redirect an old mindtouch file url to a new kuma file url
+create a new attachment object and populate its initial dcnl revision or show a separate form view that allows to fix form submission dcnl errors dcnl redirects back to the document s editing url on success
+queue deleting expired session items without breaking poor mysql
+call f which has first argument locale if f raises an dcnl exception indicative of a bad localization of a string try again in dcnl settings wiki default language dcnl nb this means f will be called up to two times
+renders a template in the currently set locale dcnl falls back to wiki default language in case of error
+return iterable of emailmessages with user and watch values substituted dcnl a convenience function for generating emails by repeatedly dcnl rendering a django template with the given context vars plus a dcnl user and watches key for each pair in users and watches dcnl note dcnl this is a localeaware rewrite of the same function in djangotidings dcnl it s kind of goofyi ain t gonna lie dcnl arg subject lazy gettext subject string dcnl arg text template path to text template file dcnl arg html template path to html template file dcnl arg context vars a map which becomes the context passed in to the dcnl template and the subject string dcnl arg from email the from email address dcnl arg default local the local to default to if not user locale dcnl arg extra kwargs additional kwargs to pass into emailmessage constructor dcnl returns generator of emailmessage objects
+this function is for use on the base field class
+this function is for use on the charfield class
+get a paginator abstracting some common paging actions
+convert a string to int with fallback for invalid strings or types
+generate a new filename for a file upload field delete the previously dcnl uploaded file
+decorator that only allows one instance of the same command to run dcnl at a time
+a tool like django s get object or 404 but returns none in case dcnl of a doesnotexist exception
+parses tag input with multiple word input being activated and dcnl delineated by commas and double quotes quotes take precedence so dcnl they may contain commas dcnl returns a sorted list of unique tag names unless sorted false dcnl ported from jonathan buchanan s djangotagging dcnl <http djangotagging googlecode com
+return chunks of n length of iterable dcnl if len iterable n 0 then the last chunk will have dcnl length less than n dcnl example dcnl chunked 1 2 3 4 5 2 dcnl 1 2 3 4 5 dcnl arg iterable the iterable dcnl arg n the chunk length dcnl returns generator of chunks from the iterable
+extract a set of unique identifiers from the request dcnl this set will be made up of one of the following combinations depending dcnl on what s available dcnl user none none unique md5 hash dcnl none ip user agent unique md5 hash
+add a fragment and or query parameters to a url dcnl new query params will be appended to exising parameters except duplicate dcnl names which will be replaced
+returns date time formatted using babel s locale settings uses the dcnl timezone from settings py
+return locale from the request falling back to a default if invalid
+return the babel locale code given a normal one
+render list of pages
+helper for django s reverse in templates
+turn html entities in a string into unicode
+the current year
+add the utm tracking parameters to a url
+returns date time formatted using babel s locale settings uses the dcnl timezone from settings py
+convert a datetime to the utc timezone dcnl assume that naive datetimes without timezone info are in system time
+avoid duplicating page param in pagination
+rough reimplementation of nose tools eq dcnl note this should be removed as soon as we no longer use it
+rough reimplementation of nose tools ok dcnl note this should be removed as soon as we no longer use it
+compares received s attributes with expected s kwargs
+return a django user or raise fixturemissingerror
+adds settings to the context
+given an acceptlanguage header return the bestmatching language
+set the prefixer for the current thread
+set the prefixer for the current thread
+get the prefixer for the current thread or none
+wraps django s reverse to prepend the correct locale dcnl force locale ordinarily if get url prefixer returns none we return dcnl an unlocalized url which will be localized via redirect when visited dcnl set force locale to true to force the insertion of a default locale dcnl when there is no set prefixer if you are writing a test and simply dcnl wish to avoid localeurlmiddleware s initial 301 when passing in an dcnl unprefixed url it is probably easier to substitute localizingclient dcnl for any uses of django test client client and forgo this kwarg dcnl locale by default reverse prepends the current locale if set or dcnl the default locale if force locale true to override this behavior dcnl and have it prepend a different locale pass in the locale parameter dcnl with the desired locale when passing a locale the force locale is dcnl not used and is implicitly true
+given a ranked language list return the bestmatching locale
+split the requested path into locale path dcnl locale will be empty if it isn t found
+parse a list of tags out into a dict of lists by namespace
+decide whether a tag namespace is editable by a user
+given a new set of tags and a user build a list of allowed new tags dcnl with changes accepted only for namespaces where editing is allowed for dcnl the user for disallowed namespaces this object s current tag set will dcnl be imposed dcnl no changes are made the new tag list is just returned
+helper function that returns a decorator dcnl redirect func if truthy a redirect will occur dcnl deny func if truthy httpresponseforbidden is returned dcnl redirect url func evaluated at view time returns the redirect url dcnl i e where to go if redirect func is truthy dcnl redirect field what field to set in the url defaults to django s dcnl set this to none to exclude it from the url
+requires that the user not be logged in
+requires that the user is logged in
+a replacement for django contrib auth decorators permission required dcnl that doesn t ask authenticated users to log in
+decorator for celery task functions if we re in maintenance mode skip dcnl the call to the decorated function otherwise call the decorated function dcnl as usual
+decorator for view functions if we re in maintenance mode redirect dcnl to the maintenancemode view on requests using the given http methods dcnl or all http methods if methods is none otherwise call the dcnl wrapped view function as usual
+render error pages with jinja2
+returns the string of a number formatted for the current language dcnl uses django s translation get language to find the current language from dcnl the request dcnl falls back to the default language if babel does not support the current
+turn the query string into a unicode and asciisafe string dcnl we need unicode so it can be combined with a reversed url but it has to be dcnl ascii to go in a location header iri to uri seems like a good compromise
+return whether the given id is a valid javascript identifier
+return whether the given value can be used as a jsonp callback
+returns a link to ban a user
+returns a link to admin a user
+email address publicly displayable email
+turns all unicode into html entities e g 69 e
+turn a list of users into a list of links to their profiles
+provider login url github next some url
+providers media js
+set accounts social accounts user dcnl then dcnl accounts twitter a list of connected twitter accounts dcnl accounts twitter 0 the first twitter account dcnl if accounts if there is at least one social account
+ban a user
+a page to ban a user for the reason of spam and mark the user s revisions dcnl and page creations as spam reverting as many of them as possible
+a summary page of actions taken when banning a user and reverting revisions dcnl this method takes all the revisions from the last three days dcnl sends back the list of revisions that were successfully reverted deleted dcnl and submitted to akismet and also a list of dcnl revisions where no action was taken revisions needing follow up
+revert document to a specific revision
+delete a document
+the main user view that only collects a bunch of user dcnl specific data to populate the template context
+view and edit user profile
+send a recovery email to a user
+login via an account recovery link dcnl modeled on django contrib auth views password reset confirm but resets dcnl the password to an unusable password instead of prompting for a new dcnl password
+simple task wrapper for the render method of the document model
+task to send email for render document progress notification
+simple task to render a chunk of documents instead of one per each
+a task to acquire the render document lock
+a task to release the render document lock
+simple task wrapper for rendering stale documents
+forcerefresh cached json data after rendering
+make an edited notification email for firsttime editors
+for the given locale build the appropriate sitemap file and dcnl returns the locale the file names written and timestamp of the dcnl build
+a chord callback task that writes a sitemap index file for the dcnl given results of func ~kuma wiki tasks build locale sitemap task
+build and save sitemap files for every mdn language and as a dcnl callback save the sitemap index file as well
+index a list of documents into the provided index dcnl arg ids iterable of document pks to index dcnl arg index pk the index pk of the index to index into dcnl arg reraise false if you want errors to be swallowed and true dcnl if you want errors to be thrown dcnl note dcnl this indexes all the documents in the chunk in one single bulk dcnl indexing call keep that in mind when you break your indexing dcnl task into chunks
+delete a list of documents from the provided index dcnl arg ids iterable of document pks to remove dcnl arg index pk the index pk of the index to remove items from
+run tidy over the given revision s content and save it to the dcnl tidy content field if the content is not equal to the current value dcnl arg pk primary key of revision whose content needs tidying
+delete old documentspamattempt data which contains pii dcnl also set review to review unavailable
+return a dict that fills in the blanks in notification templates
+get extra headers for filtering notification emails
+create a notification email for firsttime editors
+create a notification email for a spam attempt dcnl because the spam may be on document creation the document might be null
+gets sections in a document
+quick and dirty filter to remove <div class noinclude blocks
+given a proposed doc path try to see if there s a legacy mindtouch dcnl locale or even a modern kuma domain in the path if so signal for a dcnl redirect to a more canonical path in any case produce a locale and dcnl slug derived from the given path
+return locale path slug if url is a document false otherwise dcnl if url doesn t even point to the document view raise notdocumentview
+given a sequence of document revision ids returns a dict matching dcnl those with the number of users google analytics thinks has visited dcnl each revision since start date
+given a sequence of revision objects returns a dict matching dcnl their pks with the number of users google analytics thinks has visited dcnl each revision since they were created
+format comment for html display with bugzilla links and slug changes dcnl keyword arguments dcnl rev the revision dcnl previous revision the previous revision default none dcnl load previous try loading previous revision if none default true
+given the two revisions generate a diff between their tidied dcnl content in the unified diff format
+creates an html diff of the passed in content from and content to
+provided a selector returns the relevant content from the document
+recursively escapes strings in an object dcnl traverses dict list and tuples these are the data structures supported dcnl by the json encoder
+returns the json representation of the value
+joins a base site url with a url path dcnl if no site provided it gets the current site from site
+create a url pointing to kuma dcnl look for a wiki page in the current locale or default to given path
+the service isn t disabled with a timeout of 0 dcnl the document isn t empty dcnl the request has not asked for raw source dcnl eg raw dcnl the request has not asked for no macro evaluation dcnl eg nomacros dcnl the request has asked for macro evaluation dcnl eg raw macros
+perform a kumascript get request for a document locale and slug
+encode env vars as kumascript headers as base64 jsonencoded values
+attempt to decode any fireloggerstyle error messages in the response dcnl from kumascript
+build the cache keys used for kumascript
+get active macros and their source paths dcnl return is a dict with the casesensitive macro name as key and the subpath dcnl on github as the value the full url of the github source is dcnl https github com mdn kumascript tree master macros subpath
+get the macros known to elasticsearch with their page counts dcnl return is a dictionary of lowercase macro names to their page counts dcnl this includes things that look like macros such as django templates from dcnl the django learning area and anything wrapped in dcnl keyword arguments dcnl locale filter by this locale default no locale filter
+get active macros their source paths and usage on site dcnl return is a dict with the casesensitive macro name as key and a dict as dcnl value with keys dcnl github subpath the subpath on github dcnl count the number of pages the macro is used on dcnl en count the number of english pages the macro is used on dcnl if there is no elasticsearch server or it is misconfigured then the dcnl counts will both be 0
+a test user
+a second test user
+a third test user
+an inactive test user
+a banned test user
+a newlycreated toplevel english document
+a revision that created an english document
+a revision that edits an english document
+translate the root document into french
+a further edit to the translated document
+a toplevel english document with mixed contributors some are valid dcnl some are banned and some are inactive
+mock elasticsearch client dcnl user should override client search return value dcnl based on test fixture from elasticsearch dsl
+when kumascript returns macros the sources are populated
+when kumascript can t return macros the sources are empty
+when kumascript raises an error the sources are empty
+macro page count returns macro usage across all locales by default
+macro page count enus returns macro usage in the enus locale
+when kumascript returns an empty response macro usage is empty
+when elasticsearch is unreachable counts are 0
+when followon elasticsearch call raises reraise exception
+comparing two valid revisions of the same document works
+a localized revision can be compared to an english source revision
+confirm that the based on value set in the revision created by an edit dcnl or translate form is the current revision of the document as of when the dcnl form was first loaded even if other revisions have been approved in the dcnl meantime
+check document page for zonestylerelated features
+check the three rows of the test translation dcnl row 1 the latest edit of the translation dcnl row 2 the first translation into french dcnl row 3 the english revision that the first translation was based on
+history of english doc works
+history for translated documents includes an english revision dcnl this is the revision the first translation was based on
+history for trans docs excludes the english revision if no based on dcnl this can happen for old translated docs or ones manually associated with dcnl the parent
+history of unknown page returns 404
+history of halfcreated document returns 404
+anonymous users are forbidden to request all revisions
+users are allowed to request all revisions
+history will paginate the revisions
+history limit more than revisions works removes pagination
+history limit nonsense uses the default pagination
+return an empty document with enough stuff filled out that it can be dcnl saved
+return an empty revision with enough stuff filled out that it can be dcnl saved dcnl revision s is approved false unless you specify otherwise dcnl requires a users fixture if no creator is provided
+return a revision that is the translation of a defaultlanguage one
+normalize html5 input discarding parts not significant for dcnl equivalence in tests
+get or create a group that can edit documents
+get or create a user empowered with document editing
+test wiki url without client languages
+assert that the objects contained by manager are those in list
+test the nearest zone property of english and nonenglish documents
+silly endcase test of the nearestzone property of a nonenglish document dcnl without a parent
+test is zone root
+ensure css styles for a zone can be fetched
+ensure that the expiry is not constant
+test the nearest zone job
+make sure we handle the case where we try to get the nearest dcnl zone for a document whose parenttopic has been deleted
+tests basic operation ordering caching and handling of banned and dcnl inactive contributors
+if not under a content experiment use the original document
+if under a content experiment return original document and params
+if the original is selected as the content experiment return it
+if the variant is selected as the content experiment return it
+if the variant is selected as the content experiment return it
+if the document for a variant doesn t exist return the original
+kumascript reports errors in http headers kuma should display the errors dcnl with appropriate links for both the wiki preview and wiki document dcnl endpoints
+comparing two valid revisions of the same document works
+a localized revision can be compared to an english source revision
+comparing revisions without tidied content displays a wait message
+comparing badlyformed revision parameters return 404 not error
+if a compare query parameter is missing a 404 is returned
+if the revision is for the wrong document a 404 is returned
+a mock document that should update
+the mock doc should update search index
+excluded slugs should not update the search index
+do not update the search index if some flags are set
+test the notification context for a created english page
+test the notification context for an edited english page
+test the notification context for a created english page
+test that editdocumentevent also notifies for the tree
+test event email parameters for creation of an english page
+test event email parameters for changing an english page
+a first edit email is formatted for a new english page
+a first edit email is formatted for an english change
+a first edit email is formatted for a first translation
+a spam attempt email is formatted for a new english page
+a spam attempt email is formatted for an english change
+a spam attempt email is formatted for a new translation
+a spam attempt email is formatted with partial information
+the filter drops iframe src that does not match the pattern
+any contents inside an <iframe should be removed
+populate document uuid without bumping last modified
+clear document uuid
+for historic documentspamattempt set to review unavailable
+revert review unavailable back to needs review
+select a locale to translate the document to
+create a new translation of a wiki document dcnl document slug is for the default locale dcnl translation is to the request locale
+utility function to do basic slug splitting
+utility function to derive the last modified timestamp of a document dcnl mainly for the condition decorator
+return a dict with the document data pertinent for the form
+view a wiki document revision
+create an html fragment preview of the posted wiki syntax
+compare two wiki document revisions dcnl the ids are passed as query string parameters to and from
+quickly mark a revision as no longer needing a particular type dcnl of review
+revert document to a specific revision
+delete a document
+restore a deleted document
+permanently purge a deleted document
+extract a code sample from a document and render it as a standalone dcnl html document
+a view redirecting to the real file serving view of the attachments app dcnl this exists so the writers can use relative paths to files in the dcnl code samples instead of hard coding he file serving urls dcnl for example on a code sample with the url dcnl https mdn mozillademos org fr docs web css tools outil selecteur couleurs css samples colorpicker tool dcnl this would allow having files referred to in the css as dcnl url files 6067 canvascontrols png
+for urls in special namespaces like talk user etc redirect dcnl if possible to the appropriate new url in the appropriate dcnl locale if the locale cannot be correctly determined fall back to dcnl enus
+given a request to a mindtouchgenerated url generate a redirect dcnl to the correct corresponding kuma url
+return ckeditor config from database
+returns the closest title matches for frontend autosuggests
+list wiki documents depending on the optionally given tag
+returns listing of all tags
+lists wiki documents with revisions flagged for review
+lists wiki documents with localization tag
+lists wiki documents with kumascript errors
+lists wiki documents without parent no english source document
+lists documents directly under docs
+list all the revisions of a given document
+create a new wiki page which is a document and a revision
+handle when a midair collision is detected upon submission
+create a new revision of a wiki document or edit document metadata
+get html and rendering errors for a document dcnl return is a tuple dcnl the html dcnl a list of kumascript errors encountered during rendering dcnl true if rendered content was requested but not available dcnl if rendering params use rendered is true then kumascript rendering is dcnl attempted if false prerendered content is returned if any
+get parenttitle information for seo purposes
+apply needed filtering annotating operations to a document s html
+perform some responseheader manipulation that gets used in dcnl several places
+if we re falling back to a document in the default locale figure dcnl out why and whether we can redirect to a translation in the dcnl requested locale
+attempt to fetch a document at the given locale and slug and dcnl return it or return a fallback reason if we weren t able to
+get document and rendering parameters changed by the content experiment dcnl if the page is under a content experiment and the selected variant is dcnl valid the return is the variant document the experiment params dcnl if the page is under a content experiment but the variant is invalid or dcnl not selected the return is original document the experiment params dcnl if the page is not under a content experiment the return is dcnl original document none
+retrieves a document and returns its children in a json structure
+move a tree of pages
+return a document s table of contents as html
+return some basic document info in a json blob
+this is deprecated and only exists temporarily to serve old dcnl document pages that request zone css via this endpoint
+toggle watching a document for edits
+toggle watching a tree of documents for edits
+when a document doesn t exist but the user can create it return dcnl the creation url to redirect to
+when a document has been deleted return a 404 dcnl if the user can restore documents then return a 404 but also include the dcnl template with the form to restore the document
+display a raw document
+view a wiki document
+handle put requests as document write api
+creates spam akismet record for revision dcnl return json object with akismet record data dcnl todo create submitting as ham record for revision
+decorator for generated content methods dcnl if the backing model field is null or kwarg force fresh is true call the dcnl decorated method to generate and return the content dcnl otherwise just return the value in the backing model field
+return a descriptor delegating to an attr of the original document dcnl if self is a translation the descriptor delegates to the attribute dcnl parent attr from the original document otherwise it delegates to the dcnl attribute direct attr from self dcnl use this only on a reference to another object like a manytomany or a dcnl foreignkey using it on a normal field won t work well as it ll preclude dcnl the use of that field in queryset field lookups also modelforms that are dcnl passed instance this obj won t see the inherited value
+sadly copied from taggit to work around the issue of not being dcnl able to use the taggeditembase class that has tag field already dcnl defined
+interstitial admin view for purging multiple documents
+html link to related revisions for admin change list
+html link to the current revision for the admin change list
+html link to the topical parent document for admin change list
+html link to the parent document for admin change list
+html link to a list of child documents
+html link to a list of sibling documents
+public link to the document
+combine several field functions into one block of lines
+combine the document hierarchy nav links
+combine the revision nav links
+combine the rendering times into one block
+format akismet data as a definition list
+decorator to prevent a page from being indexable by robots
+decorator to allow cors for get requests
+decorator to enable readonly mode
+decorator to process document path into locale and slug with dcnl autoredirect if necessary dcnl this function takes generic args and kwargs so it can presume as little dcnl as possible on the view method signature
+reset the nearestzone cache for this document and its descendants
+reset the url remap list cache for the given document assuming it dcnl even has a zone
+landing page news feed
+home page
+bug 646192 mdn affiliate buttons
+serve robots txt that allows or forbids robots dcnl todo after aws move try different strategy whitenoise template
+return a url matcher suited for urlpatterns dcnl changes the defaults for locale prefix and prepend locale in the dcnl redirect urls library
+return a locale url matcher suited for urlpatterns dcnl this is suited for matching urls that may start with a locale like dcnl enus docs foo bar dcnl if the locale is a valid locale the pattern matches against the remaining dcnl path dcnl locale enus path docs foo bar dcnl however many prefix strings match so watch out for unintended matches dcnl docs foo bar dcnl can be matched as dcnl locale docs path foo bar
+return an iterator providing the dates between start and end inclusive
+gather spam statistics for a range of dates dcnl keywords arguments dcnl periods a sequence of days identifier name tuples dcnl end date the ending anchor date for the statistics
+gather data for recent spam events
+the normal macro page is a threecolumn table
+the macro page is a onecolumn table when counts are unavailable
+dashboard for reviewing revisions
+returns partial username matches
+returns partial topic matches
+dashboard for spam moderators
+returns table of active macros and their page counts
+load locales data from languages json dcnl languages json is from the productdetails project dcnl https productdetails mozilla org 1 0 languages json
+define a css file generated from multiple scss files
+define a css file that shares the name with the one input scss
+prepare a new index for indexing documents into dcnl arg index pk the index id to create an elasticsearch index of dcnl this also updates the settings to make indexing faster like disabling dcnl refreshes and replicas
+finalizes the elasticsearch index dcnl arg index pk the index id to operate on dcnl this performs the following actions dcnl optimize which also does a refresh and a flush by default dcnl update settings to reset number of replicas and refresh interval dcnl sends an email that the indexing is complete
+returns search url from referer if it was an mdn search
+returns the values of all filter groups intended to pull key value pairs dcnl from requests dcnl e g if topic is a filtergroup slug and given the url dcnl q test topic css topic html dcnl this will return css html dcnl if the given url contains none then no filters should be applied
+decorator that logs an error on connection issues dcnl 9 out of 10 doctors say that connection errors are usually because dcnl es urls is set wrong this catches those errors and helps you out dcnl with fixing it
+register a model and index for auto indexing
+return empty array until we restore internal search system
+render an opensearch plugin
+a successful response from this endpoint simply proves dcnl that django is up and running it doesn t mean that its dcnl supporting services like mysql memcached celery can dcnl be successfully used from within this service
+a successful response from this endpoint goes a step further dcnl and means not only that django is up and running but also that dcnl the database can be successfully used from within this service dcnl the other supporting services are not checked but we may find dcnl that we want need to add them later
+generated secret should be saved as a hash and pass a check
+generate a random api key dcnl see http jetfar com simpleapikeygenerationinpython
+enable a view to accept an auth key via http basic auth dcnl key id expected as username secret as password dcnl on successful auth the request will be set with the authkey and the user dcnl owning the key
+a simple user record with only the basic information
+a document record with no revisions and no parent topic
+a document record with two revisions and without a parent topic
+a translation of the root document
+if the document already exists shortcircuit downloads
+resources are fetched if force true
+a child document requires the parent document
+if the parent document is available it is not requested
+if the rendered document is standard get next resources
+if metadata doesn t match url use locale and slug from url
+if the metadata has an error so does the document
+a zone url requests the zone doc
+if the zoned document fails isn t a zone then the doc errors too
+the zoned doc is used to normalize the url
+if a document is a redirect request the target page
+if a document is a redirect to a normal page create a redirect
+if a document is a redirect to a zone request the zone root
+if a document is a redirect to an errored zone doc is also errored
+a zoned document has more data passed to storage save document
+if a document is a redirect to zone subpage request the zone root
+a zoned subpage has more data passed to storage save document
+a localized document will wait for metadata
+a localized document will request the english document
+an invalid english document path is an error
+a localized document will set the english document as parent
+a depth 0 will require the children resource
+if the children resource is loaded use it
+a root document with one tagged revision
+a bad revision path is detected at initialization
+on the first call multiple items are requested from storage
+if prereqs are present then source is done
+if only the doc is present then full gather is performed
+if stored doc does not agree with stored revision doc then error
+on the first call multiple items are requested from storage
+a revision will request a document on the second pass
+if the document slug is different from the revision doc wins dcnl this appears to be common around page moves
+older revisions can be imported without some tags
+if the revision html can t be fetched the source is errored
+if a based on revision is specified it is required
+if a based on revision is specified and available it is used
+a session is created once on request
+a successful request calls raise for status by default
+the call to raise for status can be omitted
+requests are retried with back off after a timeout
+requests are retried after expected exceptions
+request fail after too many timeouts
+setup a test scraper that handles fakesource sources
+the add source method initializes a source
+adding a existing source returns true if options were updated
+the scraper will loop through sources until complete
+the scraper will complete if a source is errored
+a scraper with no sources returns early
+the scraper will warn if there is a percent in a source dcnl this indicates a jsonencoded url was not decoded
+the scraper will warn if a dependency block is detected dcnl if no progress is made in a loop it implies that a dependency is in dcnl error and further loops will not make any further progress
+local storage objects are none when unset return the saved value
+new tags are created
+existing tags are reused
+existing tags with different capitalization are reused
+tags are created and attached to the new document
+duplicate tags are deduped on document save dcnl this may not be needed now that bug 1293749 is fixed
+an existing document gets new scraped tags
+an existing document that has been moved is moved locally
+an existing document can have a different id than remote doc
+can save ca docs project quant a despite integrityerror
+a document with a vanity url creates the associated documentzone
+a document with a plain zone creates the associated documentzone
+a zone child document does not create a documentzone
+creating the current revision updates the associated document
+creating an older revision does not update the associated document
+a current revision with duplicate tags does not create dupes on the doc dcnl historical revisions will have these duplicate tags even though dcnl bug 1293749 is fixed because they are stored as strings
+existing tags are reused when saving a current revision
+a revision may have no content but include review tags
+a banned user creates a selfbanning userban instance
+a complex user record with social and other profile data
+create mock production data requester for source gather testing dcnl keyword arguments dcnl requester spec requester attributes default request dcnl response spec response attributes default content history dcnl content content of response default dcnl json decoded json of response default not json dcnl status code status code of response default 200 none to error on check dcnl history status code path pairs for redirect history of request dcnl default no redirects dcnl final path final path for request default none
+create mock database storage for source gather testing dcnl keyword arguments dcnl spec list of expected storage method calls default dcnl any spec that starts with get is initialized to return none
+omitted source parameters are initialized to defaults
+source parameters are initialized by name
+an invalid parameter name raises an exception
+an empty merge does not change the source state
+a merge to smaller parameters keeps the current values and state
+a merge with the current values keeps the current state
+an updating merge updates the values and resets the state
+multiple parameters can be updated in one merge call
+for the int all parameter type all is a valid and maximum value
+for the text parameter type any nonempty change is an update
+current options returns empty dict for default options
+current options returns the nondefault options as a dict
+invalid parameter values raise a valueerror
+source decode href turns urlencoded hrefs into unicode strings
+the source error exception can be turned into a string
+a source that is done can still be gathered
+a source that is already in storage loads quickly
+a source can raise an error when loading from storage
+a source can request other sources as prerequisites
+a source may raise an error when loading prerequisites
+a source can fail when saving the data
+a source with all prereqs can request further sources
+detect urlencoded paths and fail at init
+detect invalid paths and fail at init
+zone root data can be gathered from metadata on the first pass
+previously stored zone root data prevents scraping
+passing a nonzone url is detected when processing metadata
+if the metadata locale doesn t match the url it is an error dcnl this appears to be common on zoned urls with only one translation dcnl and requires reseting the stored json data
+all metadata prereqs can be satisfied in the first call
+all metadata prereqs can be satisfied in the first call
+if the metadata 404s the source is in error
+if translations are requested they are extracted from metadata
+child resources also get the translations request
+child resources also get the revisions request
+a document record with a documentzone with style and a redirect
+a document record that is below the zone root
+test a page without redirects
+test a page with nonzone redirects dcnl for example a page might redirect from http to https without dcnl changing the path
+the zone css slug is extracted from zone roots
+the zone css slug is not extracted from zone children
+a missing document results in an error dcnl one cause translations are requested and a recently deleted dcnl translation is in the metadata
+a empty specification is ok does nothing
+a fixture without dependencies is loaded
+a fixture with existing tomany dependencies is loaded
+a fixture must define all the natural key items
+a fixture with a relation as a key can be loaded
+manytomany relations of existing instances are updated
+an unspecified relation is detected raises exception
+an unspecified relation is detected raises exception
+a user password is hashed
+if document current revision is set we re done
+if the document history is unavailable wait
+if a revision was requested but not scraped wait
+if a revision was included in history but not scraped request it
+if we ve scraped all the known revisions request more history
+if a doc has no current rev scrape all history and fail
+a documentbasesource with a toplevel slug has no parent
+a documentbasesource with a childlevel slug has a parent
+a documentbasesource with a zone slug starts unnormalized
+initializing with a urlencoded path raises an exception
+if a document has no subpages none are extracted
+document subpages are returned as new resources to fetch
+depth all is propagated to child pages
+depth n is propagated as depth n1 to child pages
+depth 1 is not propagated to child pages
+the default is requests if revision count is unspecified
+if a revision count is specified that many are requested
+if a revision count is more than the revisions take note
+if the history endpoint errors scraping stops
+if previously called populate history from storage
+a translated document may include the english source doc
+do typical mdn update
+helper to print all system commands in debug mode
+returns integer board ids available on this machine
+lock file from integer id
+username that has locked the device id empty string if no lock
+attempts to lock id returning success as true false
+start a process that will free a lock when process pid terminates
+finds a free id locks it and returns integer id or 1 if none free dcnl a process is spawned that will free the lock automatically when the dcnl process pid by default the current python process terminates
+finds a free id locks it and returns integer id or 1 if none free dcnl lock must be freed manually
+attempts to free lock id returning success as true false
+this is a decorator which can be used to mark functions dcnl as deprecated it will result in a warning being emmitted dcnl when the function is used
+return a cudamatexception object based on the error code err code
+creates and returns a new cudamatrix with the given shape
+sum the matrix along the given dimension where 0 represents the leading dcnl dimension and 1 represents the nonleading dimension if a target is dcnl not prvided a new vector is created for storing the result
+find the dot product between m1 and m2
+compute the vector dot product of matrices m1 and m2
+apply cos to each element of the matrix mat
+apply cos to each element of the matrix mat
+apply sin to each element of the matrix mat
+apply the logistic sigmoid to each element of the matrix mat
+apply the tanh to each element of the matrix mat
+apply abs to each element of the matrix mat
+apply log 1+exp x to each element of the matrix mat if exact is true use dcnl slow and accurate log and exp
+find the natural logarithm of each element of the matrix mat
+apply the exponential function to each element of the matrix mat
+apply the ceil function to each element of the matrix mat
+apply the floor function to each element of the matrix mat
+compute the square root of each element of the matrix mat
+compute mat log p 1mat log 1p
+compute mat log p
+compute mat p 0 5 + 1mat p < 0 5
+if p is a scalar compute the p th power of each element of the matrix mat dcnl otherwise raise each element of the matrix mat to the power given by the dcnl corresponding element of the matrix p
+returns array as a float32 array in fortran order
+selects the cuda device with the given id
+initialize cublas
+shut down cublas
+returns integer board ids available on this machine
+lock file from integer id
+username that has locked the device id empty string if no lock
+attempts to lock id returning success as true false
+start a process that will free a lock when process pid terminates
+finds a free id locks it and returns integer id or 1 if none free dcnl a process is spawned that will free the lock automatically when the dcnl process pid by default the current python process terminates
+finds a free id locks it and returns integer id or 1 if none free dcnl lock must be freed manually
+attempts to free lock id returning success as true false
+images n images img w 2 n chans dcnl filters n filters filter w 2 n chans dcnl targets n images n locs 2 n filters dcnl nummodulesx number of filter locations along an axis n locs dcnl paddingstart set to k for a kpixel border of zeros usually set to 0 dcnl modulestride stride to move the filters by dcnl numimgcolors n chans
+hidsums n images n locs 2 n filters dcnl filters n filters filter w 2 n chans dcnl targets n images img w 2 n chans
+images n images img w 2 n chans dcnl hidsums n images n locs 2 n filters dcnl targets n filters filter w 2 n chans
+images n images img w 2 n chans dcnl filters n filters filter w 2 n chans dcnl targets n images n locs 2 n filters dcnl nummodulesx number of filter locations along an axis n locs dcnl paddingstart set to k for a kpixel border of zeros usually set to 0 dcnl modulestride stride to move the filters by dcnl numimgcolors n chans
+hidsums n images n locs 2 n filters dcnl filters n filters filter w 2 n chans dcnl targets n images img w 2 n chans
+images n images img w 2 n chans dcnl hidsums n images n locs 2 n filters dcnl targets n filters filter w 2 n chans
+images n images img w 2 n chans dcnl numchannels number of filter color channels dcnl subsx width of pooling area dcnl startx pixel where pooling starts dcnl stridex stride dcnl outputsx number of pooling sites
+images n images img w 2 n chans dcnl rnd n images img w 2 n chans dcnl numchannels number of filter color channels dcnl subsx width of pooling area dcnl startx pixel where pooling starts dcnl stridex stride dcnl outputsx number of pooling sites
+images n images img w 2 n chans dcnl grad n images outputsx 2 n chans cudamat of deltas gradients of loss wrt layer outputs dcnl maxes n images outputsx 2 n chans cudamat of layer outputs dcnl subsx width of pooling area dcnl startx pixel where pooling starts dcnl stridex stride dcnl outputsx number of pooling sites
+accumulate the derivative w r t the outputs of this layer dcnl each layer needs to compute derivatives w r t its outputs these outputs may dcnl have been connected to lots of other nodes through outgoing edges dcnl this method adds up the derivatives contributed by each outgoing edge dcnl it gets derivatives w r t the inputs at the other end of an outgoing edge dcnl args dcnl edge the edge which is sending the derivative dcnl deriv the derivative w r t the inputs at the other end of this edge
+get the gradient for the weights in this edge dcnl args dcnl grad output the gradient for the weights in this edge
+converts humanreadable numbers to bytes dcnl e g converts 2 1m to 2 1 1024 1024 bytes
+returns a list of data handles dcnl this method is the toplevel routine for creating data handlers it takes a dcnl description of which datasets to load and returns data handlers to access dcnl them dcnl args dcnl op operation protocol buffer dcnl names list of list of data names the top level list corresponds to train dcnl validation and test sets the lowerlevel lists correspond to data dcnl modalities dcnl hyp list list of hyperparameters for each modality dcnl verbose if true will print out details of what is happening dcnl returns dcnl a list of datahandler objects
+converts a serialized parameter string into a numpy array
+converts a numpy array into a serialized parameter string
+writes out the model to disk
+some cases have text and some don t this method separates them out
+w num filters x sizex 2 num colors
+w2 np zeros w shape dcnl d w shape1 3 dcnl print w shape dcnl for i in range w shape0 dcnl for j in range w shape1 3 dcnl w2i j wi 3 j dcnl w2i j + d wi 3 j+1 dcnl w2i j + 2 d wi 3 j+2 dcnl w w2
+this is a decorator which can be used to mark functions dcnl as deprecated it will result in a warning being emmitted dcnl when the function is used
+return a eigenmatexception object based on the error code err code
+creates and returns a new eigenmatrix with the given shape
+sum the matrix along the given dimension where 0 represents the leading dcnl dimension and 1 represents the nonleading dimension if a target is dcnl not prvided a new vector is created for storing the result
+find the dot product between m1 and m2
+compute the vector dot product of matrices m1 and m2
+apply cos to each element of the matrix mat
+apply sin to each element of the matrix mat
+apply softmax activation to each column of mat
+apply the logistic sigmoid to each element of the matrix mat
+apply the tanh to each element of the matrix mat
+apply abs to each element of the matrix mat
+apply log 1+exp x to each element of the matrix mat if exact is true use dcnl slow and accurate log and exp
+find the natural logarithm of each element of the matrix mat
+apply the exponential function to each element of the matrix mat
+apply the ceil function to each element of the matrix mat
+apply the floor function to each element of the matrix mat
+compute the square root of each element of the matrix mat
+compute mat log p 1mat log 1p
+compute mat log p
+compute mat p 0 5 + 1mat p < 0 5
+if p is a scalar compute the p th power of each element of the matrix mat dcnl otherwise raise each element of the matrix mat to the power given by the dcnl corresponding element of the matrix p
+returns array as a float32 array in fortran order
+selects the cuda device with the given id
+initialize cublas
+shut down cublas
+copy each line up to our special flag line and return dcnl raises valueerror if the flag isn t found dcnl return list the lines we re copying
+creates the basic auth value to be used in an authorization header dcnl this is mostly copied from the requests library dcnl param str username a plotly username dcnl param str password the password for the given plotly username dcnl returns str an authorization header for use in a request header
+retrieve a general file from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl returns requests response returns response directly from requests
+update a general file from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+softdelete a general file from plotly can be undone with restore dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+restore a trashed general file from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+permanently delete a trashed general file from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+retrieve a general file from plotly without needing a fid dcnl param str path the delimited path specifying the file location dcnl param int parent parent id an integer which the path is relative to dcnl param str user the username to target files for defaults to requestor dcnl param bool exists if true don t return the full file just a flag dcnl returns requests response returns response directly from requests
+create a dash app item
+retrieve a dash app from plotly
+completely update the writable
+create a new folder dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+retrieve a folder from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl returns requests response returns response directly from requests
+update a folder from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+softdelete a folder from plotly can be undone with restore dcnl this action is recursively done on files inside the folder dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+restore a trashed folder from plotly see trash dcnl this action is recursively done on files inside the folder dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+permanently delete a trashed folder file from plotly see trash dcnl this action is recursively done on files inside the folder dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+retrieve a folder file from plotly without needing a fid dcnl param str path the delimited path specifying the file location dcnl param int parent parent id an integer which the path is relative to dcnl param str user the username to target files for defaults to requestor dcnl param bool exists if true don t return the full file just a flag dcnl returns requests response returns response directly from requests
+helper to create a params dict skipping undefined entries dcnl returns dict a params dict to pass to request
+create a url for a request on a v2 resource dcnl param str resource e g files plots grids etc dcnl param str id the unique identifier for the resource dcnl param str route detail list route e g restore lookup etc dcnl return str the url
+raise a helpful plotlyrequesterror for failed requests dcnl param requests response response a response object from an api request dcnl raises plotlyrequesterror if the request failed for any reason dcnl returns none
+using session credentials config get headers for a v2 api request dcnl users may have their own proxy layer and so we free up the authorization dcnl header for this purpose instead adding the user authorization in a new dcnl plotlyauthorization header see pull 239 dcnl returns dict headers to add to a requests request call
+central place to make any api v2 api request dcnl param str method the request method get put delete dcnl param str url the full api url to make the request to dcnl param kwargs these are passed along but possibly mutated to requests dcnl return requests response the response directly from requests
+retrieve the most uptodate copy of the plotschema wrt the given hash dcnl param str sha1 the lastknown hash of the plotschema or dcnl returns requests response returns response directly from requests
+create a dashboard
+returns the list of all users dashboards
+retrieve a dashboard from plotly
+completely update the writable
+retrieve the dashboard schema
+generate an image which does not get saved on plotly dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+create a new grid dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+retrieve a grid from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl returns requests response returns response directly from requests
+retrieve full content for the grid normal retrieve only yields preview dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl returns requests response returns response directly from requests
+update a grid from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+softdelete a grid from plotly can be undone with restore dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+restore a trashed grid from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+permanently delete a trashed grid file from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+retrieve a grid file from plotly without needing a fid dcnl param str path the delimited path specifying the file location dcnl param int parent parent id an integer which the path is relative to dcnl param str user the username to target files for defaults to requestor dcnl param bool exists if true don t return the full file just a flag dcnl returns requests response returns response directly from requests
+create a new column or columns inside a grid dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+retrieve a column or columns from a grid dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str uid a concatenated string of column uids in the grid dcnl returns requests response returns response directly from requests
+update a column or columns from a grid dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str uid a concatenated string of column uids in the grid dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+permanently delete a column or columns from a grid dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str uid a concatenated string of column uids in the grid dcnl returns requests response returns response directly from requests
+append rows to a grid dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+create a new plot dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+retrieve a plot from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl returns requests response returns response directly from requests
+retrieve the figure for a plotly plot file dcnl param str fid the username idlocal identifier e g foo 88 dcnl param str share key the secret key granting read access if private dcnl param bool inline data if true include the data arrays with the plot dcnl param str map data currently only accepts unreadable to return a dcnl mapping of gridfid grid this is useful if you dcnl want to maintain structure between the plot and dcnl referenced grids when you have read access to the dcnl plot but you don t have read access to the dcnl underlying grids dcnl returns requests response returns response directly from requests
+update a plot from plotly dcnl param str fid the username idlocal identifier e g foo 88 dcnl param dict body a mapping of body param names to values dcnl returns requests response returns response directly from requests
+softdelete a plot from plotly can be undone with restore dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+restore a trashed plot from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+permanently delete a trashed plot file from plotly see trash dcnl param str fid the username idlocal identifier e g foo 88 dcnl returns requests response returns response directly from requests
+retrieve a plot file from plotly without needing a fid dcnl param str path the delimited path specifying the file location dcnl param int parent parent id an integer which the path is relative to dcnl param str user the username to target files for defaults to requestor dcnl param bool exists if true don t return the full file just a flag dcnl returns requests response returns response directly from requests
+retrieve information on the loggedin user from plotly dcnl returns requests response returns response directly from requests
+raise a helpful plotlyrequesterror for failed requests dcnl param requests response response a response object from an api request dcnl raises plotlyrequesterror if the request failed for any reason dcnl returns none
+using session credentials config get headers for a v1 api request dcnl users may have their own proxy layer and so we free up the authorization dcnl header for this purpose instead adding the user authorization in a new dcnl plotlyauthorization header see pull 239 dcnl returns dict headers to add to a requests request call
+central place to make any v1 api request dcnl param str method the request method get put delete dcnl param str url the full api url to make the request to dcnl param kwargs these are passed along to requests dcnl return requests response the response directly from requests
+deprecated endpoint still used because it can parse data out of a plot dcnl when we get around to forcing users to create grids and then create plots dcnl we can finally get rid of this dcnl param list data the data array from a figure
+returns the credentials that will be sent to plotly
+returns either module config or file config
+checks if file exists returns if something fails
+save json to file error if path dne not a dict or invalid json
+given a valid filename make sure it exists will create if dne
+given a valid directory path make sure it exists

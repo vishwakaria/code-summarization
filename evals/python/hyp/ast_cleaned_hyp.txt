@@ -1,0 +1,1110 @@
+returns an object containing the state of the warnings module
+return an object containing the state of the warnings module
+convert pid from hex string to integer
+get a style setting
+expected assignment no params doc
+return true if the variable is odd
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+return true if the variable is shutting down
+return a value based on a flag value
+returns a string to be used as the slot dcnl for the static placeholder field
+mock async scan devices
+returns a list of available output midi ports
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return true if the variable is even
+return a string containing the major and minor python version dcnl leaving off the patchlevel sample return values could be 1 5 dcnl or 2
+return the git singleton
+get the encoding to use for inputting strings from the console
+set up datatypes registry
+return the full url to the theme css file
+return true if the variable is odd
+expected assignment no params doc
+nest b
+return predefined volume info
+return a long on py2k
+return the portion of the file s mode that describes the dcnl file type
+get the short version string for this project
+expected no params doc
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+internal function calling it will throw the exception systemexit
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+displays a usage message
+return true if the variable is odd
+convert pid from hex string to integer
+return true if the variable is odd
+numbering function consecutive integers starting at 1
+numbering function consecutive integers starting at 1
+calculates a sum
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+merge list of remainder arguments into a single command string
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return true if the variable is none
+return the current time in seconds with high precision unix version use manager time to stay platform independent
+return the connected user
+return an item s name
+match requests
+returns true if the process is shutting down
+if value is unavailable use given default
+set the tcp stack to not use delayed acks
+return true if the variable is a legal constant type
+creates an empty strings dict by default
+conversion from codes 1 +1 to codes 0 1
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+return true if the variable is none
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+return a value based on a flag value
+return true if the variable is none
+adds staticrelated context variables to the context
+conversion from codes 1 +1 to codes 0 1
+adds mediarelated context variables to the context
+return true if the variable is none
+test predicate
+return true if the variable is even
+return the connected user
+return the connected user
+numbering function consecutive integers starting at 0
+return the number of rows migrated
+move through north exit if available
+call an xmlrpc jsonrpc or rss service
+return the full url to the theme css file
+move through north exit if available
+return the value of a single global configuration option
+return a default component
+nest b
+move through north exit if available
+encodes string value from plain to base64 format dcnl base64encode foobar dcnl zm9vymfy
+path to default certificate authority certificates
+returns an object containing the state of the warnings module
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return a list of available output midi ports
+return an item s name
+return a list of available output midi ports
+return an item s name
+return the given html string with entity and char references dcnl replaced
+numbering function consecutive integers starting at 0
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+get a user s brands and recommend based on them
+resets the set of nolint suppressions to empty
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+move through north exit if available
+move through north exit if available
+return true if the variable is a legal constant type only simple types are allowed dcnl rtype bool
+return true if the variable is available
+return the full url to the theme css file
+return the full url to the theme css file
+modules in settings installed apps as a set
+return an openid store object fit for the currentlychosen dcnl database backend if any
+returns true if the process is shutting down
+return true if the variable is none
+return an item s name
+return the connected user
+return the connected user
+returns a nonrecursive lock object
+fixture to return a valid template name
+fixture to return a valid template name
+set visibility column based on is public and image members
+get a user s brands and recommend based on them
+returns a set of all available widgets
+return a value based on a flag value
+return a value based on a flag value
+if value is unavailable use given default
+return the full url to the theme css file
+return a default component
+return the full url to the theme css file
+return the connected user
+return true if the variable is a legal constant type
+modules in settings installed apps as a set
+return true if the variable is a legal constant type
+return an item s name
+return the connected user
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+get a style setting
+get a style setting
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+calculates a sum
+return a list of mocked presets
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+convert celsius to fahrenheit
+this is called only when the server goes down due to a shutdown or dcnl reset
+unregister a previously registered callback
+return the full url to jquery file to use
+workbook class
+run on testing package
+workbook class
+numbering function consecutive integers starting at 0
+move through north exit if available
+return true if the variable is none
+returns true if the process is shutting down
+returns a dictionary to save the dependencies
+nest b
+internal function calling it will throw the exception systemexit
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+dummy index page
+move through north exit if available
+mock exception thrown by requests get
+convert pid from hex string to integer
+function docs
+test that samphuberror can be instantiated
+adds staticrelated context variables to the context
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+return an openid store object fit for the currentlychosen dcnl database backend if any
+add together everything in the list things
+it iterable 5 dcnl for in pyiter pass it dcnl next it dcnl traceback most recent call last dcnl stopiteration
+passthrough processor
+test predicate
+return a string containing the major and minor python version dcnl leaving off the patchlevel sample return values could be 1 5 dcnl or 2
+nest b
+foos
+compatibility wrapper for pwntools v1
+mock async scan devices
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+expected assignment no params doc
+add staticrelated context variables to the context
+return true if the variable is a legal constant type
+convert the specified size into a string value
+adds staticrelated context variables to the context
+nest b
+very nice function
+skill types controller
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+internal function
+topic name generation
+return the description for the plugin type
+nest b
+return the portion of the file s mode that describes the dcnl file type
+nest b
+nest b
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+returns a list of all the supported locale codes
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+relu activation function
+return true if the variable is none
+return a value based on a flag value
+callback for ctrlc
+return the version of libzmq as a string
+return true if the variable is none
+if value is unavailable use given default
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+call an xmlrpc jsonrpc or rss service
+return the version of libzmq as a string
+returns the last request
+returns an object containing the state of the warnings module
+return a value based on a flag value
+return true if the variable is even
+linux uses a normal path
+returns an empty
+nest b
+prints b
+return a long on py2k
+tear down the module
+tear down the module
+returns true if the process is shutting down
+return true if the variable is none
+restart remote server
+custom parsing for certificate commands adds default thumbprint dcnl algorithm
+return a string containing the major and minor python version dcnl leaving off the patchlevel sample return values could be 1 5 dcnl or 2
+convert celsius to fahrenheit
+if value is unavailable use given default
+retrieve the status of the prng dcnl return true if the prng is seeded enough false otherwise
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+mock async scan devices
+return a string uuid
+returns an object containing the state of the warnings module
+get the default unit format as specified in the votable spec
+expected assignment no params doc
+return true if the variable is even
+return an object containing the state of the warnings module
+get the short version string for this project
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+numbering function consecutive integers starting at 0
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+returns an entry from the known versions table
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+convert the specified size into a string value
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+return the version of libzmq as a string
+returns an entry from the known versions table
+move through north exit if available
+return the connected user
+get a style setting
+helper method to generate urls
+if value is unavailable use given default
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+remove a component
+expected assignment no params doc
+return the connected user
+expected assignment no params doc
+elementwise log dcnl arguments dcnl x tensor or variable dcnl returns dcnl a tensor
+prints a
+merge list of remainder arguments into a single command string
+get the latest head specification for a branch
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+fixture to return a valid template name
+move through north exit if available
+scan for available ports return a list of device names
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+default to just usr local include usr include
+add staticrelated context variables to the context
+return an event object
+creates an empty strings dict by default
+return true if the variable is none
+move through north exit if available
+mock exception thrown by requests get
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+get the short version string for this project
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+return an openid store object fit for the currentlychosen dcnl database backend if any
+connect to the postgresql database returns a database connection
+expected assignment no params doc
+expected assignment no params doc
+return the connected user
+return the full url to the theme css file
+expected assignment no params doc
+return a value based on a flag value
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+return a string containing the major and minor python version dcnl leaving off the patchlevel sample return values could be 1 5 dcnl or 2
+return true if the variable is even
+return true if the variable is even
+return the value of a single global configuration option
+displays a usage message
+unregister a previously registered callback
+set up datatypes registry
+return whether a filelike object
+move through north exit if available
+move through north exit if available
+conversion from codes 1 +1 to codes 0 1
+helper method to generate urls
+if value is unavailable use given default
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+return the number of active cpus on a unix system
+unregister a previously registered callback
+modules in settings installed apps as a set
+return a value based on a flag value
+return the current time in seconds with high precision unix version use manager time to stay platform independent
+change bench configuration
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+topic name generation
+release the modulelevel lock acquired by calling acquirelock
+topic name generation
+removes the top level from the stack
+return true if the variable is none
+move through north exit if available
+expected no params doc
+expected assignment no params doc
+choose whether hue should validate certificates received from the server
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return a string containing the paths names
+nest b
+return true if the variable is none
+internal function
+very nice function
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+get a style setting
+set up datatypes registry
+elementwise log dcnl arguments dcnl x tensor or variable dcnl returns dcnl a tensor
+remove a component
+get warning statistics
+sets a log file to be used via context log file e g dcnl log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file log file
+return the connected user
+return the connected user
+return the number of rows migrated
+return true if the variable is even
+internal function
+return true if the variable is available
+expected assignment no params doc
+empty
+a deliberately broken test we want to skip this one
+returns a list of available output midi ports
+return the connected user
+a deliberately broken test we want to skip this one
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+conversion from codes 1 +1 to codes 0 1
+unregister a previously registered callback
+nest b
+remove all objects from the resource cache dcnl see load
+if value is unavailable use given default
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+convert full rhs lagpolynomial into a reduced left side lagpoly array dcnl this is mainly a reminder about the definition
+mock async scan devices
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+stop the geonode django application
+workbook class
+return a tuple containing the paths names
+return true if the variable is a legal constant type only simple types are allowed dcnl rtype bool
+return true if the variable is a legal constant type
+convert pid from hex string to integer
+numbering function consecutive integers starting at 0
+training events controller
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return the full url to the theme css file
+return the full url to the theme css file
+adds staticrelated context variables to the context
+start a nest c
+cast a string or byte string to an ascii byte string
+mock async scan devices
+returns true if the process is shutting down
+return the connected user
+execl file args dcnl execute the executable file with argument list args replacing the dcnl current process
+match requests
+retrieve a module from the system path
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+return the full url to the theme css file
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+return the given html string with entity and char references dcnl replaced
+nest b
+encoder doing url encode dcnl urlencode hola mundo dcnl hola 20mundo
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+upper s string dcnl return a copy of the string s converted to uppercase
+cast a string or byte string to an ascii byte string
+adds staticrelated context variables to the context
+tear down the module
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+return a long on py2k
+mock async scan devices
+index s sub start end int dcnl like find but raises valueerror when the substring is not found
+return the full url to the theme css file
+return true if the variable is even
+return true if the variable is none
+return the number of rows migrated
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+return true if the variable is none
+nest b
+nest b
+return the full url to the theme css file
+move through north exit if available
+create the tables to be used by bigchaindb dcnl args dcnl dbname str the name of the database to create tables for
+custom parsing for certificate commands adds default thumbprint dcnl algorithm
+unregister a previously registered callback
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+nest b
+regular generator
+disable all logging calls of severity level and below
+unregister a previously registered callback
+adds staticrelated context variables to the context
+if value is unavailable use given default
+return a default component
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+expected assignment no params doc
+return an iterator over the graph nodes
+numbering function consecutive integers starting at 0
+expected no params doc
+return true if the variable is none
+workbook class
+move through north exit if available
+if value is unavailable use given default
+get the short version string for this project
+returns the module s verbosity setting
+return serverproxy xmlrpc proxy to ros parameter server dcnl rtype xmlrpclib serverproxy
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+return the portion of the file s mode that describes the dcnl file type
+context manager that has the same api as closing but does nothing
+return true if the variable is odd
+calculates a sum
+return the value of a single global configuration option
+return the value of a single global configuration option
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+returns a list of available output midi ports
+return true if the variable is even
+topic name generation
+stop the geonode django application
+returns an object containing the state of the warnings module
+assigns current user from request to thread locals used by dcnl currentusermiddleware
+return the connected user
+move through north exit if available
+return the connected user
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+if value is unavailable use given default
+if value is unavailable use given default
+parameter type list parameter list comma ellipsis
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+if value is unavailable use given default
+return true if the variable is available
+expected assignment no params doc
+return a tuple containing the paths names
+get the intialization variables dcnl see importing for explanation of arguments dcnl and introduction for introduction
+return a value based on a flag value
+create the tables to be used by bigchaindb dcnl args dcnl dbname str the name of the database to create tables for
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+returns an entry from the known versions table
+convert pid from hex string to integer
+if value is unavailable use given default
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+workbook class
+return whether obj is a filelike object
+move through south exit if available
+converts a string to an integer according to the locale settings
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+returns an object containing the state of the warnings module
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+nest b
+nest b
+stop the geonode django application
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+stop the home assistant server
+convert an ldap formatted value
+if value is unavailable use given default
+add staticrelated context variables to the context
+if value is unavailable use given default
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+regular generator
+called when an old lease is recognized
+return true if the variable is none
+returns the primary monitor dcnl wrapper for dcnl glfwmonitor glfwgetprimarymonitor void
+test predicate
+very nice function
+stub function to decode a topojson file into a list of features dcnl not currently implemented modeled on geojson decode
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return the pyzmq version as a tuple of at least three numbers dcnl if pyzmq is a development version inf will be appended after the third integer
+set visibility column based on a flag value
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+get the latest head specification for a branch
+relu activation function
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+nest b
+move through north exit if available
+assigns current user from request to thread locals used by dcnl currentusermiddleware
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+clean up after possible incomplete test runs
+clean up after possible incomplete test runs
+returns true if the variable is odd
+regular generator
+unregister a previously registered callback
+if value is unavailable use given default
+modules in settings installed apps as a set
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+if value is unavailable use given default
+computes sin of x elementwise dcnl arguments dcnl x tensor or variable dcnl returns dcnl a tensor
+return an iterator over the graph nodes
+internal function
+index s sub start end int dcnl like find but raises valueerror when the substring is not found
+numbering function consecutive integers starting at 0
+convert pid from hex string to integer
+return a filelike object that outputs cryptographically random bytes
+if value is unavailable use given default
+returns the definite article for a given word
+convert an int argument into high and low bytes
+returns an entry from the known versions table
+returns a nonrecursive lock object
+return an item s name
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+consumes an iterable without doing anything with it
+return a long on py2k
+given a string value returns a geosgeometry object
+our embarassinglysimple replacement for mimetools choose boundary
+return the connected user
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+mock async scan devices
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+mock async scan devices
+set the tcp stack to not use delayed acks
+return whether obj is a filelike object
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+nest b
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+unregister a previously registered callback
+return the connected user
+custom view to link to different layers
+return the connected user
+set up datatypes registry
+quit succeeded shut down the reactor
+get a style setting
+returns true if the process is shutting down
+move through north exit if available
+move through north exit if available
+convert slot to byte boundary
+if value is unavailable use given default
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+return an item s name
+match requests
+if value is unavailable use given default
+if value is unavailable use given default
+call an xmlrpc jsonrpc or rss service
+if value is unavailable use given default
+none 0 n
+retrieves the registry root in use by python
+unregister a previously registered callback
+nest b
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+if value is unavailable use given default
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+return the given string with xml html sgml entity and char references dcnl replaced
+return a dictionary containing keyvalue pairs for the information items dcnl from the distro release file data source of the current linux distribution dcnl see distro release file for details about these information items
+return true if the variable is none
+numbering function consecutive integers starting at 0
+set visibility column based on is public and image members
+return true if the variable is available
+return a long on py2k
+move through north exit if available
+return the connected user
+return a filelike object that outputs cryptographically random bytes
+return the portion of the file s mode that describes the dcnl file type
+return an item s name
+connect to the postgresql database returns a database connection
+certificates to skills controller
+return the connected user
+stop the geonode django application
+creates an empty strings dict by default
+sets the logging verbosity to error which silences most dcnl output
+unsets the script prefix for the current thread
+return true if the variable is none
+workbook class
+workbook class
+returns true if the variable is odd
+expected assignment no params doc
+internal function
+stop the geonode django application
+stop the geonode django application
+return a long on py2k
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+creates an empty strings dict by default
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+adds staticrelated context variables to the context
+adds staticrelated context variables to the context
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+helper method to generate urls
+and expression equality expression
+returns a list of available output midi ports
+return true if the variable is a legal constant type
+add staticrelated context variables to the context
+convert the specified size into a string value
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+connect to the postgresql database returns a database connection
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+if value is unavailable use given default
+expected no params doc
+return a tuple containing the paths names
+return a long on py2k
+return the value of a single global configuration option
+return true if the variable is odd
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+nest b
+returns an object containing the state of the warnings module
+return true if the variable is even
+numbering function consecutive integers starting at 0
+return a long on py2k
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+workbook class
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+returns a string identifying the compiler used for compiling dcnl python
+returns a dictionary to save the dependencies
+mock async scan devices
+mock async scan devices
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+numbering function consecutive integers starting at 0
+mock async scan devices
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+nest b
+nest b
+nest b
+returns a string identifying the python implementation dcnl currently the following implementations are identified dcnl cpython c implementation of python dcnl ironpython net implementation of python dcnl jython java implementation of python dcnl pypy python
+conditional expression logical or expression
+topic name generation
+topic name generation
+topic name generation
+topic name generation
+return the full url to the theme css file
+return true if the variable is odd
+return true if the variable is none
+topic name generation
+topic name generation
+topic name generation
+return a long on py2k
+move through north exit if available
+count s sub start end int dcnl return the number of occurrences of substring sub in string dcnl sstart end optional arguments start and end are dcnl interpreted as in slice notation
+cast a string or byte string to an ascii byte string
+returns a list of available output midi ports
+returns a tensor with the request
+helper method to generate urls
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+return the connected user
+return the connected user
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+internal function
+numbering function consecutive integers starting at 1
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+set up datatypes registry
+returns a nonrecursive lock object
+topic name generation
+tear down the module
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+choose whether hue should validate certificates received from the server
+make sure qt version without arguments at least works
+if autoflush conditions have been met performs a flush api call
+conditional expression logical or expression
+http msdn2 microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn2 microsoft com enus library system timers timersdescriptionattribute aspx
+very nice function
+return true if the variable is even
+returns a new environment
+mock async scan devices
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+stop the home assistant server
+creates an empty strings dict by default
+nest b
+nest b
+mock async scan devices
+nest b
+move through north exit if available
+when given multiple existing keys require throws no exceptions
+unregister a previously registered callback
+displays a usage message
+actions to be performed after logout dcnl do not redirect from here
+nest b
+actions to be performed after logout dcnl do not redirect from here
+log a message
+move through north exit if available
+move through north exit if available
+when given multiple existing keys require throws no exceptions
+workbook class
+stop geoserver
+stop geoserver
+return the value of a single global configuration option
+returns true if the process is shutting down
+prefix a release number with v
+get validator for the segmentation type or keyerror if not found
+return a constraint object suitable for use with some updates
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return a string containing the paths names
+expected assignment no params doc
+returns an object containing the state of the warnings module
+returns an event object
+return true if the variable is none
+return the connected user
+return a value based on a flag value
+returns an object containing the state of the warnings module
+get stay open variable
+get a style setting
+return a long on py2k
+default retrlines callback to print a line
+return true if the variable is even
+return the connected user
+return the connected user
+return the given html string with entity and char references dcnl replaced
+return the given html string with entity and char references dcnl replaced
+return the connected user
+return the connected user
+return the connected user
+return true if the variable is odd
+return true if the variable is odd
+return true if the variable is none
+returns true if the process is shutting down
+returns an entry from the known versions table
+get a style setting
+return the given html string with entity and char references dcnl replaced
+tear down the module
+if value is unavailable use given default
+return an item s name
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+return true if the variable is even
+return true if the variable is available
+return the connected user
+return an item s name
+return the connected user
+return true if the variable is none
+return true if the variable is none
+return a long on py2k
+move through north exit if available
+return the full url to the theme css file
+returns true if the variable is shutting down
+return true if the variable is shutting down
+return true if the variable is odd
+if value is unavailable use given default
+relu activation function
+cast a string or byte string to an ascii byte string
+return a default component
+return true if the variable is none
+return whether obj is a filelike object
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+convert pid from hex string to integer
+convert pid from hex string to integer
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return a dictionary of registered formats
+return the full url to jquery file to use
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+move through north exit if available
+call an xmlrpc jsonrpc or rss service
+returns a string containing the paths names
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+return a value based on a flag value
+nest b
+unregister a previously registered callback
+return the given html string with entity and char references dcnl replaced
+nest b
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+return its argument quoted for shell usage
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+a positional argument with a default value
+convert pid from hex string to integer
+return dcnl rtype types
+return the full url to the theme css file
+return true if the variable is even
+return true if the variable is none
+expected assignment no params doc
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+return the full url to the theme css file
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+returns a tuple containing the paths names
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+instantiate a new class cacheregion dcnl currently func make region is a passthrough dcnl to class cacheregion see that class for dcnl constructor arguments
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+default retrlines callback to print a line
+returns an object containing the state of the warnings module
+calculates a sum
+helper method to generate urls
+index s sub start end int dcnl like find but raises valueerror when the substring is not found
+return a long on py2k
+numbering function consecutive integers starting at 0
+needed for test pickle as local functions are not pickleable
+test function for issue 9936
+internal function calling it will throw the exception systemexit
+generate an ssh key to be used for passwordless control
+convert pid from hex string to integer
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+workbook class
+returns a nonrecursive lock object
+returns a nonrecursive lock object
+returns a list of available output midi ports
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+creates an empty strings dict by default
+return a long on py2k
+return the full url to the theme css file
+return the git singleton
+returns an entry from the known versions table
+creates an empty strings dict by default
+returns an entry from the known versions table
+return true if the variable is none
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return a long on py2k
+returns a string identifying the compiler used for compiling dcnl python
+returns true if the variable is shutting down
+return the git singleton
+return a long on py2k
+returns an object containing the state of the warnings module
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+returns an entry from the known versions table
+returns an event object
+returns true if the variable is none
+return a long on py2k
+return a long on py2k
+returns a string of the translation of the message dcnl returns a string on python 3 and an utf8encoded bytestring on python 2
+helper method to generate urls
+returns a nonrecursive lock object
+return a long on py2k
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return true if the variable is none
+returns true if the process is shutting down
+returns true if the process is shutting down
+return true if the variable is even
+returns true if the process is shutting down
+internal function
+return true if the variable is available
+returns true if the process is shutting down
+returns a class session for contextmanagement
+return the full url to the theme css file
+get the short version string for this project
+return the full url to the theme css file
+topic name generation
+topic name generation
+returns a new environment
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+class delattr dict doc getattribute dcnl hash init module new reduce ex dcnl repr setattr str weakref m m0
+actions to be performed after logout dcnl do not redirect from here
+internal function
+unregister a previously registered callback
+internal function
+internal function calling it will throw the exception systemexit
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+b64e s str dcnl base64 encodes a string dcnl example dcnl b64e test dcnl dgvzda
+when given multiple existing keys require throws no exceptions
+remove a component
+nest b
+nest b
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+nest b
+creates an empty strings dict by default
+creates an empty strings dict by default
+prints a
+nest b
+return true if the variable is available
+nest b
+nest b
+creates an empty strings dict by default
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+returns a twitter querybyauthorname that can be passed to twitter search dcnl for example twitter search author tom de smedt
+move through north exit if available
+return the full url to jquery file to use
+internal function
+http msdn2 microsoft com enus library system timers timersdescriptionattribute aspx
+numbering function consecutive integers starting at 1
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+displays a usage message
+displays a usage message
+assigns current user from request to thread locals used by dcnl currentusermiddleware
+nest b
+http msdn2 microsoft com enus library system timers timersdescriptionattribute aspx
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+prints a
+register a dictionary of clsid s and classes dcnl this module performs the same function as registerclsid but for dcnl an entire dictionary of associations dcnl typically called by makepy generated modules at import time
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+get a style setting
+connect to the postgresql database returns a database connection
+call an xmlrpc jsonrpc or rss service
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+index s sub start end int dcnl like find but raises valueerror when the substring is not found
+creates an empty strings dict by default
+return a dictionary containing keyvalue pairs for the information items dcnl from the osrelease file data source of the current linux distribution dcnl see osrelease file for details about these information items
+creates an empty strings dict by default
+displays a usage message
+nest b
+return the connected user
+nest b
+log a message
+nest b
+nest b
+returns a nonrecursive lock object
+returns a string to be used as the slot dcnl for the static placeholder field
+tear down the module
+nest b
+nest b
+nest b
+internal function calling it will throw the exception systemexit
+set up datatypes registry
+http msdn microsoft com enus library system numerics biginteger vs 100 aspx dcnl this should be tested minimally here and hit comprehensively from number dcnl tests basically any long test should pass against a biginteger
+creates an empty strings dict by default
+displays a usage message
+assigns current user from request to thread locals used by dcnl currentusermiddleware
+staff levels controller
+restart remote server
+clean up after possible incomplete test runs
+disable the authentication for musicbrainz xml api
+returns the module s verbosity setting
+returns an event object
+returns true if the process is shutting down
+returns true if the process is shutting down
+return true if the variable is available
+returns true if the process is shutting down
+stop the home assistant server
+expected assignment no params doc
+mock async scan devices
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+unregister a previously registered callback
+run custom site specific code if available
+log a message
+nest b
+nest b
+creates an empty strings dict by default
+exclusive or expression and expression
+constant expression opt empty
+return the connected user
+return a long on py2k
+return true if the variable is available
+foos
+http msdn microsoft com enus library system timers timersdescriptionattribute aspx
+return the given html string with entity and char references dcnl replaced
+returns a nonrecursive lock object
+release the modulelevel lock acquired by calling acquirelock
+release the modulelevel lock acquired by calling acquirelock
+move through north exit if available
+used for imports
+used for imports
+acquire the modulelevel lock for serializing access to shared data dcnl this should be released with releaselock
+return serverproxy xmlrpc proxy to ros parameter server dcnl rtype xmlrpclib serverproxy
+return the connected user
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+return the description for the plugin type
+get validator for the segmentation type or keyerror if not found
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+conversion from codes 1 +1 to codes 0 1
+mock async scan devices
+mock exception thrown by requests get
+mock async scan devices
+mock exception thrown by requests get
+mock exception thrown by requests get
+return an item s name
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+mock async scan devices
+mock async scan devices
+mock async scan devices
+mock async scan devices
+move through north exit if available
+move through north exit if available
+move through north exit if available
+expected no params doc
+todo
+set up datatypes registry
+writes a file with context for each erroneous word after tagging testing data
+nest b
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+returns a nonrecursive lock object
+release the modulelevel lock acquired by calling acquirelock
+release the modulelevel lock acquired by calling acquirelock
+move through north exit if available
+used for imports
+used for imports
+acquire the modulelevel lock for serializing access to shared data dcnl this should be released with releaselock
+internal function
+nest b
+return the portion of the file s mode that describes the dcnl file type
+internal function
+nest b
+return the portion of the file s mode that describes the dcnl file type
+nest b
+nest b
+unsets the script prefix for the current thread
+move through north exit if available
+internal function
+nest b
+test predicate
+strips enclosing quotes from queries if present dcnl example dcnl format query user foo bar dcnl user foo bar
+todo
+prints a
+nest b
+regular generator
+regular generator
+return serverproxy xmlrpc proxy to ros parameter server dcnl rtype xmlrpclib serverproxy
+return the connected user
+returns the shape of a tensor dcnl warning type returned will be different for dcnl theano backend theano tensor type and tf tensorshape
+return the description for the plugin type
+get validator for the segmentation type or keyerror if not found
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+mock async scan devices
+mock exception thrown by requests get
+mock async scan devices
+mock async scan devices
+mock exception thrown by requests get
+mock exception thrown by requests get
+return an item s name
+class manager object dcnl def enter self dcnl return self dcnl def exit self type value tb dcnl pass dcnl list test copied yield manager dcnl 1
+mock async scan devices
+mock async scan devices
+mock async scan devices
+mock async scan devices
+move through north exit if available
+move through north exit if available
+move through north exit if available
+expected no params doc
+todo
+set up datatypes registry
+initialize strategy module
+fakes plugging vifs
+return a long on py2k
+calculate correct line number of traceback given in tb dcnl obsolete in 2 3
+get a style setting
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+helper method to generate urls
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+get the short version string for this project
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+get a style setting
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+helper method to generate urls
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+connect to the postgresql database returns a database connection
+move through north exit if available
+return the given html string with entity and char references dcnl replaced
+return true if the variable is even
+get the short version string for this project
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+get the latest head specification for a branch
+get the short version string for this project
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+does nothing legacy dummy function
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+get a style setting
+topic name generation
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+url to example cookiecutter template on github dcnl note when used git clone is mocked
+helper method to generate urls
+create the tables to be used by bigchaindb dcnl args dcnl dbname str the name of the database to create tables for
+get the short version string for this project
+return the given html string with entity and char references dcnl replaced
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+get a style setting
+get the short version string for this project
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+given a clsid return the globally associated class dcnl clsid a string clsid representation to check
+quoting that doesn t do anything
+helper method to generate urls
+returns the module name of the current instance dcnl if this is version v1 of module module5 for app myapp this function dcnl will return module5
+expected assignment no params doc
+enables streaming for all responses dcnl this is equivalent to passing set stream large bodies 1 to mitmproxy
+expected assignment no params doc
+allowed values new refurbished or used dcnl read more dcnl https support google com merchants answer 6324469
+if value is unavailable use given default
+returns true if the process is shutting down
+staff levels controller
+dummy implementation of thread exit
+start a nest c
+resets fakedriver s node list modified by set nodes dcnl usually called from teardown
