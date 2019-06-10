@@ -80,6 +80,8 @@ NOTE: preprocessed here means:
 
 
 ## Python
+- The following are the inputs and targets when AST encodings are used : 
+
 ### Inputs (X)
 - unprocessed_ast_list_train.zip
 - unprocessed_ast_list_dev.zip
@@ -90,6 +92,16 @@ NOTE: preprocessed here means:
 - unprocessed_summary_dev.zip
 - unprocessed_summary_test.zip
 
+- The following are the inputs and targets when AST encodings are not used. Instead, function bodies are used to train the model :
 
+### Inputs (X)
+- input_train.txt
+- input_dev.txt
+- input_test.txt
+
+### Outputs (Y)
+- summary_train.txt
+- summary_dev.txt
+- summary_test.txt
 
 Source: [code2seq](https://github.com/tech-srl/code2seq#datasets)
