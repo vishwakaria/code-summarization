@@ -92,6 +92,7 @@ NOTE: preprocessed here means:
 - unprocessed_summary_dev.zip
 - unprocessed_summary_test.zip
 
+##
 - The following are the inputs and targets when AST encodings are not used. Instead, function bodies are used to train the model :
 
 ### Inputs (X)
