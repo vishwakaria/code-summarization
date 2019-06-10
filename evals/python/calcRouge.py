@@ -5,7 +5,8 @@ import sys
 
 def main():
     sys.setrecursionlimit(2000 * 500 + 1000)
-    for model in ["ast_cleaned", "transformer_no_ast", "raw_python"]:
+    for model in ["ast_cleaned", "transformer_no_ast", "raw_python",
+                  "unprocessed_ast"]:
         fr = rouge.FilesRouge("hyps/" + model + "_hyp.txt",
                               "refs/" + model + "_ref.test")
         print(model)

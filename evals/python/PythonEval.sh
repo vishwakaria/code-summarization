@@ -6,7 +6,7 @@
 # also assumes python rouge package has been installed (can be installed using
 # "pip install rouge")
 
-PythonModels="ast_cleaned transformer_no_ast raw_python"
+PythonModels="ast_cleaned transformer_no_ast raw_python unprocessed_ast"
 
 for model in $PythonModels; do
   echo "BLEU for $model:"
