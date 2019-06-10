@@ -119,4 +119,5 @@ We have used the Transformer model as the main architecture for our work. The st
 
 ## References 
 [1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017).
+
 [2] Alon, Uri, Omer Levy, and Eran Yahav. "code2seq: Generating sequences from structured representations of code." arXiv preprint arXiv:1808.01400 (2018).

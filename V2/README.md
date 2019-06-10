@@ -1,6 +1,6 @@
 # code-docstring-corpus V2
 
-The code-docstring-corpus version 2, with class declarations, class methods, module docstrings and commit SHAs
+The code-docstring-corpus version 2, with class declarations, class methods, module docstrings (the commit metadata were removed)
 
 ### Details
 
@@ -10,12 +10,10 @@ We also include "monolingual" code-only top-level functions and class methods, a
 
 | directory | description |
 |---        |---          |
-| classes\_and\_modules | Class declarations and docstrings, method docstrings |
 | parallel | Main parallel corpus |
-| mono | Code-only corpus of 223,033 top-level functions and 1,121,304 class methods |
 | repo_split | Repository-consistent train-valid-test splits of the main parallel corpus + filtered code-only repository corresponding to the training repositories |
 
 
 ### Reference
 
-If you use this corpus for a scientific publication, please cite: Miceli Barone, A. V. and Sennrich, R., 2017 "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation" arXiv:1707.02275 https://arxiv.org/abs/1707.02275
+[1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017). 
