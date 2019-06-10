@@ -78,4 +78,18 @@ NOTE: preprocessed here means:
 - tgt.val.txt
 - tgt.test.txt
 
+
+## Python
+### Inputs (X)
+- unprocessed_ast_list_train.zip
+- unprocessed_ast_list_dev.zip
+- unprocessed_ast_list_test.zip
+
+### Outputs (Y)
+- unprocessed_summary_train.zip
+- unprocessed_summary_dev.zip
+- unprocessed_summary_test.zip
+
+
+
 Source: [code2seq](https://github.com/tech-srl/code2seq#datasets)
