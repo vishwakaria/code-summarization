@@ -5,14 +5,15 @@ The aim of the project is to  build a tool that can automatically produce a natu
 
 | Directory | Description |
 |-----------|-------------|
-| notebooks | Contains the notebook artifacts used to run the process the data, train, and translate. The notebooks act as logs of training, showing the moving train acc, periodic validation acc, and runtimes involved for each experiment. |
-| data | Contains the processed dataset of function declaration+body, description, and generated ASTs for Python|
-| pred | Contains the predictions output from various tests conducted to evaluate the importance of different prep-processing steps for Java dataset |
-| utils | Helper methods for preprocessing tasks |
 | V2 | V2/parallel is the initial extracted function declaration, description & body. V2/repo_split contains the splits used in the original paper|
-| backtranslations-corpus| A corpus of docstrings automatically generated from the code-only corpus using Neural Machine Translation, used in the original paper (may/may not be relevant) |
-| parallel-corpus | The raw corpus used in the original paper (may/may not be relevant) |
-| models | The models generated for python dataset |
+| data | Contains the processed dataset of function declaration+body, description, and generated ASTs for Python & Java|
+| notebooks for java data| Contains the notebook artifacts used to run the process the data, train, and translate. The notebooks act as logs of training, showing the moving train acc, periodic validation acc, and runtimes involved for each experiment. |
+| models for python data| The models generated for python dataset |
+| predictions for java | Contains the predictions output from various tests conducted to evaluate the importance of different prep-processing steps for Java dataset |
+| evals | Contains evaluation scores |
+| utils | Helper methods for preprocessing tasks |
+| parallel-corpus | The raw corpus used in the original paper |
+
 
 
 
