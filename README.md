@@ -51,12 +51,7 @@ def _interceptdot (w, X, y):
 
 ### Extracted function-body
 ``` DCSP c = 0.0 DCNL DCSP  if  (w.size == (X.shape [1] + 1) ): DCNL DCSP  DCSP c = w[(−1)] DCNL DCSP  DCSP w = w[:(−1)] DCNL DCSP z =(safe_sparse_dot(X, w) + c) DCNL DCSP yz = (y∗z) DCNL DCSP  return w,  c ,  yz ```
-### Extracted repository metadata
 
-```github/scikit−learn/scikit−learn/sklearn/linearmodel/logistic.py 39```
-
-## References 
-[1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017).
 
 # Data
 
@@ -120,3 +115,8 @@ We have used the Transformer model as the main architecture for our work. The st
 - ROUGE-1
 - ROUGE-2
 - ROUGE-3
+
+
+## References 
+[1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017).
+[2] Alon, Uri, Omer Levy, and Eran Yahav. "code2seq: Generating sequences from structured representations of code." arXiv preprint arXiv:1808.01400 (2018).
