@@ -60,23 +60,40 @@ def _interceptdot (w, X, y):
 # Data
 
 ## Java
-Due to the rather large size of the datasets and the 100MB limitation Github enforces, we've provided a [link](https://drive.google.com/open?id=1mJRuS_Z0MMYmwWO09LrSXC5idqdgCVCJ) to the preprocessed Java datasets. Files prefixes (eg. src and tgt) indicate the OpenNMT flags to use with each. 
+
+Details on the dataset can be found at http://leclair.tech/data/funcom/#procdata
+
+We use the filtered / tokenized datasets for the purpose of this project.
+
+Due to size restrictions of Github, the all files can be downloaded from the following links:
+
+### Variations
+
+1. Raw Java ([link](https://www.dropbox.com/s/zxizopqgx5at8o3/java_raw.zip?dl=0))
+2. Tokenized Java ([link](https://drive.google.com/open?id=1Qa-GEZV2gEw8rRzchbOs66AEytVABctc))
+3. Raw -> AST Java ([link](https://www.dropbox.com/s/vwf8sh32xj4ogli/java_ast_syntax.zip?dl=0))
+4. Raw -> AST Java Cleaned ([link](https://www.dropbox.com/s/r6w8qgepq1v3hiq/java_ast_no_syntax.zip?dl=0))
+
+Each link contains a compressed file with the following folders:
+
+1. train
+    1. functions
+    2. comments
+2. valid
+    1. functions
+    2. comments
+3. test
+    1. functions
+    2. comments
+
+NOTE: The AST files were generated after reading in the source code from the JSON files, using the javalang module in Python
+
+NOTE: Cleaned entails the removal of parentheses, brackets, and other special characters. For example:
 
 NOTE: preprocessed here means:
 - The methods are split between method name and method body AND both have been tokenized and subtokenized
 - The method name has been stripped of parameters
 - The methody body has been converted to an AST with several paths sampled between terminal nodes
-
-### Inputs (X)
-- src.train.txt
-- src.val.txt
-- src.test.txt
-
-### Targets (Y)
-- tgt.train.txt
-- tgt.val.txt
-- tgt.test.txt
-
 
 ## Python
 - The following are the inputs and targets when AST encodings are used : 
@@ -119,7 +136,6 @@ We have used the Transformer model as the main architecture for our work. The st
 - ROUGE-1
 - ROUGE-2
 - ROUGE-3
-
 
 ## References 
 [1] Barone, Antonio Valerio Miceli, and Rico Sennrich. "A parallel corpus of Python functions and documentation strings for automated code documentation and code generation." arXiv preprint arXiv:1707.02275 (2017).
